@@ -1,4 +1,4 @@
-# codeING-main
+# VDI codeING - Programming Dojos von Ingenieuren für Ingenieure oder die dies noch werden möchten :stuck_out_tongue_closed_eyes:
 ## Willkommen
 Willkommen im Workspace der Administratoren Gruppe von "codeING" einem kostenfreien Angebot der VDI Young Engineers mit Programming Dojos für Ingenieurinnen und Ingenieure.
 

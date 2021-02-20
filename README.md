@@ -2,7 +2,7 @@
 ## Willkommen
 Willkommen im Workspace der Administratoren Gruppe von "codeING" einem kostenfreien Angebot der VDI Young Engineers mit Programming Dojos für Ingenieurinnen und Ingenieure.
 
-Hier gehts lang --> [Dojo Working Area](https://stan1025.github.io/codeING-main/)!
+Hier gehts lang --> [Dojo Working Area](index.md)!
 
 
 ## :question: Wer sind wir?

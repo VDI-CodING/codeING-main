@@ -3,7 +3,7 @@
 
 In this section we will give you an introduction to basic programming concepts in Type Script.
 
-## #0 - Setting up your IDE and some basics
+## :arrow_forward: S1D0 - Setting up your IDE and some basics
 Lead: @Blumi102 (Michelle Blumenstein)
 
 This first dojo will be about getting all the basics in place so that you can start programming. We'll show you what software you need, how to install it and how to configure it. We'll also give you some helpful tips and tricks about the development environment and how we collaborate with each other in the Coding Dojos.
@@ -17,7 +17,7 @@ The following topics will be addressed:
 - Tips and tricks for our collaboration in the Coding Dojos
 
 
-## #1 - Type Systems and Variables
+## :arrow_forward: S1D1 - Types and Variables
 Lead: @Blumi102 (Michelle Blumenstein)
 
 In this Coding Dojo we will give you an introduction to variables and the type system of TypeScript. 
@@ -33,7 +33,7 @@ The following topics will be addressed:
 - Naming conventions for variables
 
 
-## #2 - Control Flow Statements, Expression and Functions
+## :arrow_forward: S1D2 - Control Flows and Functions
 Lead: @Blumi102 (Michelle Blumenstein)
 
 In addition to variables, TypeScript programs also consist of control flow statements, expression and functions. In this dojos we will give you an insight into those constructs.
@@ -48,24 +48,27 @@ The following topics will be addressed:
 - Usage of 'this'
 
 
-## #6 - Introduction of object-oriented Programming
+## :arrow_forward: S1D3 - Classes and Interfaces
 Lead: @stan1025 (Andreas Stutz)
-'class' keyword
-What are classes, whats relevant for it
-What kind of Object types exist in TypeScript
 
-Einführung in Interfaces
-Was ist der Mehrwert von INterfaces
-Einführung des Entwurfsprinzips "Interface segragation"
+After the introduction of types and variables as well as control flows and functions, the next step is to learn something about classes and interfaces.
 
-## #8 - Inheritance and Type Checking
+The following topics will be adressed:
+- Introduction into Classes
+- Differences between Objects and Classes
+- Introduction to Interfaces
+- INtroduction to Interface Segregation
+
+## :arrow_forward: S1D4 - Inheritance and Type Checking
 Lead: @stan1025 (Andreas Stutz)
-Einführung von Ableitungen
-Was kann man mit Ableitungen tun
 
-How types can be checked
-- instance checking
-- type checking
+Next to classes and interfaces, inheritance and type checking are also some basic construct from the paradigm of object-oriented programming.
+In this Dojo basic topics into class inheritance and type checking is given.
 
-- 'as' keyword
-- '< >' notation
+The following topics will be adressed:
+- Introduction to Inheritance
+- Introduction to abstract classes
+- Introduction to Type and Instance Checking
+- Introduction of the 'as' operator
+- Introduction of the '< >' notation
+

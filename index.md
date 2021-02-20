@@ -30,17 +30,17 @@ Section 3 - [Software Architecture](section3/section3-architecture.md)
 
 ## :arrow_forward: Topic Leads
 
-- @@Blumi102 - Michelle Blumenstein (Basic Topics)  
-- @@stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)  
-- @@Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)  
+- @Blumi102 - Michelle Blumenstein (Basic Topics)  
+- @stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)  
+- @Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)  
 
 ## :arrow_forward: CodeING-Team
 
-- @Blumi102 - Michelle Blumenstein (Doktorandin und Wissenschaftliche Mitarbeiterin an der Helmut-Schmidt Universität Hamburg)  
-- @stan1025 - Andreas Stutz (Entwicklungsingenieur in der Forschung bei Siemens und Doktorand an der Helmut-Schmidt Universität Hamburg)  
-- @Zangarus - Marwin Madsen (Student der Informatik am Karlsruher Institut für Technologie KIT)  
-- @benedikt255 - Benedikt Geib (Projektingenieur bei SEW Eurodrive in Bruchsal)  
-- @Philipp1L2P - Philipp Gesner (Doktorand bei Daimler in Stuttgart)  
+- @Blumi102 - Michelle Blumenstein (doctoral candidate and research associate at Helmut-Schmidt Universität Hamburg)  
+- @stan1025 - Andreas Stutz (development engineer in research department at Siemens and research associate at Helmut-Schmidt Universität Hamburg)  
+- @Zangarus - Marwin Madsen (student of computer science at Karlsruher Institut für Technologie KIT)  
+- @benedikt255 - Benedikt Geib (project engineer at SEW Eurodrive in Bruchsal)  
+- @Philipp1L2P - Philipp Gesner (doctoral candidate at Daimler in Stuttgart)  
 
 
 

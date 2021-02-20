@@ -6,6 +6,7 @@ In this section we will give you an introduction to basic programming concepts i
 ## :arrow_forward: S1D0 - Setting up your IDE and some basics
 Lead: @Blumi102 (Michelle Blumenstein)
 
+
 This first dojo will be about getting all the basics in place so that you can start programming. We'll show you what software you need, how to install it and how to configure it. We'll also give you some helpful tips and tricks about the development environment and how we collaborate with each other in the Coding Dojos.
 
 The following topics will be addressed:
@@ -15,6 +16,8 @@ The following topics will be addressed:
 - Commenting your program
 - Installation, setup and usage of git and GitHub
 - Tips and tricks for our collaboration in the Coding Dojos
+
+
 
 
 ## :arrow_forward: S1D1 - Types and Variables
@@ -32,6 +35,8 @@ The following topics will be addressed:
 - Working with Null und Undefined
 - Naming conventions for variables
 
+ :green_book: [Go to Repo](https://github.com/VDI-CodING/S1D1_TypesAndVariables);
+
 
 ## :arrow_forward: S1D2 - Control Flows and Functions
 Lead: @Blumi102 (Michelle Blumenstein)
@@ -47,6 +52,8 @@ The following topics will be addressed:
 - Introduction of functions, their declaration and expressions
 - Usage of 'this'
 
+ :green_book: [Go to Repo](https://github.com/VDI-CodING/S1D2_ControlFlowsAndFunctions);
+
 
 ## :arrow_forward: S1D3 - Classes and Interfaces
 Lead: @stan1025 (Andreas Stutz)
@@ -58,6 +65,10 @@ The following topics will be adressed:
 - Differences between Objects and Classes
 - Introduction to Interfaces
 - INtroduction to Interface Segregation
+
+ :green_book: [Go to Repo](https://github.com/VDI-CodING/S1D3_ClassesAndInterfaces);
+
+
 
 ## :arrow_forward: S1D4 - Inheritance and Type Checking
 Lead: @stan1025 (Andreas Stutz)
@@ -71,4 +82,6 @@ The following topics will be adressed:
 - Introduction to Type and Instance Checking
 - Introduction of the 'as' operator
 - Introduction of the '< >' notation
+
+ :green_book: [Go to Repo](https://github.com/VDI-CodING/S1D4_InheritanceAndTypeChecking);
 

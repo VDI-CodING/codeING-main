@@ -3,11 +3,13 @@
 
 [go back](https://github.com/VDI-CodING/codeING-main)
 
-In this section we will give you an introduction to basic programming concepts in Type Script.
+In this section we will give you an introduction to basic programming concepts in Type Script.  
+:construction:: under construction; :heavy_check_mark:: ready for use
 
-## :arrow_forward: S1D0 - Setting up your IDE and some basics
-Lead: @Zangarus (Marwin Madsen)
-
+## :arrow_forward: S1D0 - Setting up your IDE and some basics 
+Lead: @Zangarus (Marwin Madsen)  
+Status: :construction:
+Planned: KW11
 
 This first dojo will be about getting all the basics in place so that you can start programming. We'll show you what software you need, how to install it and how to configure it. We'll also give you some helpful tips and tricks about the development environment and how we collaborate with each other in the Coding Dojos.
 
@@ -20,7 +22,9 @@ The following topics will be addressed:
 - Tips and tricks for our collaboration in the Coding Dojos
 
 ## :arrow_forward: S1D1 - Types and Variables
-Lead: @Blumi102 (Michelle Blumenstein)
+Lead: @Blumi102 (Michelle Blumenstein)  
+Status: :construction:
+Planned: KW12
 
 In this Coding Dojo we will give you an introduction to variables and the type system of TypeScript. 
 
@@ -36,7 +40,9 @@ The following topics will be addressed:
 
 
 ## :arrow_forward: S1D2 - Control Flows and Functions
-Lead: @Blumi102 (Michelle Blumenstein)
+Lead: @Blumi102 (Michelle Blumenstein)  
+Status: :construction:
+Planned: KW13
 
 In addition to variables, TypeScript programs also consist of control flow statements, expression and functions. In this dojos we will give you an insight into those constructs.
 
@@ -51,7 +57,9 @@ The following topics will be addressed:
 
 
 ## :arrow_forward: S1D3 - Classes and Interfaces
-Lead: @stan1025 (Andreas Stutz)
+Lead: @stan1025 (Andreas Stutz)  
+Status: :construction:
+Planned: KW14
 
 After the introduction of types and variables as well as control flows and functions, the next step is to learn something about classes and interfaces.
 
@@ -64,7 +72,9 @@ The following topics will be adressed:
 
 
 ## :arrow_forward: S1D4 - Inheritance and Type Checking
-Lead: @stan1025 (Andreas Stutz)
+Lead: @stan1025 (Andreas Stutz)  
+Status: :construction:
+Planned: KW15
 
 Next to classes and interfaces, inheritance and type checking are also some basic construct from the paradigm of object-oriented programming.
 In this Dojo basic topics into class inheritance and type checking is given.

@@ -24,15 +24,17 @@ If required, live sessions can also be organized to check the exercises and resu
 
 ## :arrow_forward: Topic Overview
 
-Section 1 - [Basic Software Programming](section1/section1-basics.md)
-Section 2 - [Advanced Software Programming](section2/section2-advanced.md)
-Section 3 - [Software Architecture](section3/section3-architecture.md)
+[:construction:] Section 1 - [Basic Software Programming](section1/README.md)  
+[:construction:] Section 2 - [Advanced Software Programming](section2/README.md)  
+[:construction:] Section 3 - [Software Architecture](section3/README.md)  
+
+:construction:: under construction; :heavy_check_mark:: ready for use
 
 ## :arrow_forward: Topic Leads
 
-- @@Blumi102 - Michelle Blumenstein (Basic Topics)
-- @@stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)
-- @@Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)
+- @Blumi102 - Michelle Blumenstein (Basic Topics)
+- @stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)
+- @Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)
 
 ## :arrow_forward: CodeING-Team
 

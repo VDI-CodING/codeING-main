@@ -30,9 +30,9 @@ Section 3 - [Software Architecture](section3/section3-architecture.md)
 
 ## :arrow_forward: Topic Leads
 
-- @@Blumi102 - Michelle Blumenstein (Basic Topics)
-- @@stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)
-- @@Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)
+- @Blumi102 - Michelle Blumenstein (Basic Topics)
+- @stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)
+- @Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)
 
 ## :arrow_forward: CodeING-Team
 

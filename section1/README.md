@@ -1,7 +1,7 @@
 
 # Section 1 - Basic Software Programming
 
-![go back](codeING-main)
+[go back](https://github.com/VDI-CodING/codeING-main)
 
 In this section we will give you an introduction to basic programming concepts in Type Script.
 

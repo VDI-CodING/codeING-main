@@ -17,8 +17,6 @@ The following topics will be addressed:
 - Installation, setup and usage of git and GitHub
 - Tips and tricks for our collaboration in the Coding Dojos
 
- :green_book: [Go to Repo](https://github.com/VDI-CodING/S1D0_SettingUp);
-
 ## :arrow_forward: S1D1 - Types and Variables
 Lead: @Blumi102 (Michelle Blumenstein)
 

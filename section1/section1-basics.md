@@ -4,7 +4,7 @@
 In this section we will give you an introduction to basic programming concepts in Type Script.
 
 ## :arrow_forward: S1D0 - Setting up your IDE and some basics
-Lead: @Blumi102 (Michelle Blumenstein)
+Lead: @Zangarus (Marwin Madsen)
 
 
 This first dojo will be about getting all the basics in place so that you can start programming. We'll show you what software you need, how to install it and how to configure it. We'll also give you some helpful tips and tricks about the development environment and how we collaborate with each other in the Coding Dojos.

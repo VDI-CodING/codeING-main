@@ -24,9 +24,9 @@ If required, live sessions can also be organized to check the exercises and resu
 
 ## :arrow_forward: Topic Overview
 
-Section 1 - [Basic Software Programming](section1/section1-basics.md)
-Section 2 - [Advanced Software Programming](section2/section2-advanced.md)
-Section 3 - [Software Architecture](section3/section3-architecture.md)
+Section 1 - [Basic Software Programming](section1/section1-basics.md)  
+Section 2 - [Advanced Software Programming](section2/section2-advanced.md)  
+Section 3 - [Software Architecture](section3/section3-architecture.md)  
 
 ## :arrow_forward: Topic Leads
 

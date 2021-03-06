@@ -1,28 +1,28 @@
-# Section 1 - Basic Software Programming
+# Section 1 - Grundlagen
 
-## :arrow_forward: S1D0 - Setting Up
+## :arrow_forward: S1D0 - Einrichtung
 Lead: @Zangarus (Marwin Madsen)
 
-Steps to create the node projects which we'll use as template:
+Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
 
-1. Initialise git:  (TODO: man sollte es auch zu einem Online Repo hinzufügen, sonst ist dieser Schritt überflüssig)
+1. Initialisiere git:  (TODO: man sollte es auch zu einem Online Repo hinzufügen, sonst ist dieser Schritt überflüssig)
    ```sh
    git init
    ```
-1. Set up a npm package (just go with the default settings):
+1. Setze ein npm package auf (Nutze einfach die Standardeinstellungen):
    ```sh
    npm init
    ```
-1. Install and configure typescript as developer dependency:
-   1. Add developer dependency:
+1. Installiere typescript und richte es als Entwicklungsvoraussetzung ein:
+   1. Füge die Voraussetzung hinzu:
       ```sh
       npm install -D typescript
       ```
-   1. Create tsconfig.json:
+   1. Erstelle tsconfig.json:
       ```sh
       tsc --init
       ```
-   1. Modify tsconfig.json by replacing line 69 and 70:
+   1. Modifiziere tsconfig.json indem du Zeilen 69 und 70 änderst:
       ```json
          },
          "exclude": [
@@ -31,27 +31,27 @@ Steps to create the node projects which we'll use as template:
          ]
       }
       ```
-1. Install typescript for node.js as developer dependency:
+1. Installiere typescript für node.js als Entwicklungsvoraussetzung:
    ```sh
    npm install -D ts-node
    ```
    ```sh
    npm install -D @types/node
    ```
-1. Install express as dependency:
+1. Installiere express als Voraussetzung:
    ```sh
    npm install -S express
    ```
    ```sh
    npm install -D @types/express
    ```
-1. Write a small programm:
-   1. Create the source directory:
+1. Schreibe ein kleines Programm:
+   1. Erstellen das Quellverzeichnis:
       ```sh
       mkdir src
       ```
-   1. Create the start file for the programm:
-      Mac and Linux:
+   1. Erstelle die Startdatei für das Programm:
+      Mac und Linux:
       ```sh
       touch src/app.ts
       ```
@@ -59,11 +59,11 @@ Steps to create the node projects which we'll use as template:
       ```sh
       New-Item -ItemType file src/app.ts
       ```
-   1. Change the start point for the programm in the package.json:
+   1. Ändere den Startpunkt für das Programm in der package.json:
       ```json
       "main": "src/app.ts",
       ```
-   1. Add to app.ts:
+   1. Füge zu app.ts hinzu:
       ```ts
       import express from "express"
 
@@ -71,27 +71,27 @@ Steps to create the node projects which we'll use as template:
       const port = process.env.PORT || 5000
 
       app.get('/', (req, res) => {
-         res.send('Hello World');
+         res.send('Hallo Welt');
       })
       app.listen(port, () => {
-         return console.log(`Server is listening on ${port}.`)
+         return console.log(`Server lauscht auf ${port}.`)
       })
       ```
-1. Install and configure eslint:
-   1. Install eslint as developer dependency:
+1. Installiere und konfiguriere eslint:
+   1. Installiere eslint als Entwicklungsvoraussetzung:
       ```sh
       npm install -D eslint
       ```
-   1. Configure eslint:
+   1. konfiguriere eslint:
       ```sh
       ./node_modules/.bin/eslint --init
       ```
-   1. Add a rule to .eslintrc.json for using console commands:
+   1. Füge eine Regel zum Benutzen von Kommandozeilenbefehlen zu .eslintrc.json hinzu:
       ```json
       "no-console": 0
       ```
-   1. Configure eslint to not lint every file:
-      Mac and Linux:
+   1. Konfiguriere eslint nicht jede Datei zu linten:
+      Mac und Linux:
       ```sh
       touch .eslintignore
       ```
@@ -99,19 +99,19 @@ Steps to create the node projects which we'll use as template:
       ```sh
       New-Item -ItemType file .eslintignore
       ```
-      Add the following to .eslintignore:
+      Füge folgendes zu .eslintignore hinzu:
       ```json
       node_modules
       build
       ```
-1. Enable auto-format for Visual Studio COde
-   1. Download ESLint extension (dbaeumer.vscode-eslint)
-   1. Go to src/app.ts and check that it is enabled in the bottom right corner
-   1. Modify Visual Studio Code settings:
+1. Aktiviere auto-format für Visual Studio Code
+   1. Lade die ESLint extension (dbaeumer.vscode-eslint) herunter
+   1. Gehe zu src/app.ts und überprüfe in der unteren rechten Ecke ob es aktiviert ist
+   1. Ändere Visual Studio Code Einstellungen:
       ```sh
       mkdir .vscode
       ```
-      Mac and Linux:
+      Mac und Linux:
       ```sh
       touch .vscode/settings.json
       ```
@@ -119,7 +119,7 @@ Steps to create the node projects which we'll use as template:
       ```sh
       New-Item -ItemType file .vscode/settings.json
       ```
-      Add following to .vscode/settings.json:
+      Füge folgendes zu .vscode/settings.json hinzu:
       ```json
       {
          "editor.codeActionsOnSave": {
@@ -130,7 +130,7 @@ Steps to create the node projects which we'll use as template:
          ]
       }
       ```
-2. Add scripts to package.json:
+2. Füge Skripte zu package.json hinzu:
    ```json
    "start": "npm run build && node build/app.ts"
    "start-dev": "ts-node src/app.ts",
@@ -138,16 +138,16 @@ Steps to create the node projects which we'll use as template:
    "build": "tsc",
    "lint": "eslint src/** --fix --cache"
    ```
-3. Install and configure nodemon:
-   1. Install nodemone as developer dependecy:
+3. Installiere und konfiguriere nodemon:
+   1. Install nodemone als Entwicklungsvoraussetzung:
       ```sh
       npm install -D nodemon
       ```
-   2. Configure nodemon:
+   2. Konfiguriere nodemon:
       ```sh
       touch nodemon.json
       ```
-      Add the following to nodemon.json:
+      Füge folgendes zu nodemon.json hinzu:
       ```json
       {
          "watch": [

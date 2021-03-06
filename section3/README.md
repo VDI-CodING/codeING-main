@@ -1,26 +1,26 @@
 
-# Section 3 - Software Architecture
+# Section 3 - Softwarearchitektur
 
-[go back](https://github.com/VDI-CodING/codeING-main)
+[zurück](https://github.com/VDI-CodING/codeING-main)
 
-Examplary development of a chat application to teach and learn the basics of software architecture.  
-:construction:: under construction; :heavy_check_mark:: ready for use
+Beispielhafte Entwicklung einer Chat-Anwendung um die Grundlagen der Softwarearchitektur zu erlernen.  
+:construction:: in Arbeit :heavy_check_mark:: bereit zur Nutzung
 
 
-## :arrow_forward: S3D1 - Introduction to Software Design with PlantUML
+## :arrow_forward: S3D1 - Einführung ins Softwaredesign mit PlantUML
 Lead: tbd    
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
-## :arrow_forward: S3D2 - Introduction of Software Design Pattern
+## :arrow_forward: S3D2 - Einführung von Software Design Patterns
 Lead: tbd   
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
-## :arrow_forward: S3D3 - Final Test (your first own program)
+## :arrow_forward: S3D3 - Abschlusstest (dein erstes eigenes Programm)
 Lead: tbd   
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
 
 

@@ -1,16 +1,16 @@
 
-# Section 2 - Advanced Software Programming
+# Section 2 - fortgeschrittene Programmierkenntnisse
 
-[go back](https://github.com/VDI-CodING/codeING-main)
+[zurück](https://github.com/VDI-CodING/codeING-main)
 
-Coding Exercises going into the direction of a small in-network chat application.  
-:construction:: under construction; :heavy_check_mark:: ready for use
+Die Übungen führen hin zu einer kleinen Netzwerkchatanwendung.  
+:construction:: in Arbeit :heavy_check_mark:: bereit zur Nutzung
 
 
-## :arrow_forward: S2D1 - Advanced Types
+## :arrow_forward: S2D1 - Fortgeschrittene Typen
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
 Einführung von Unions  
 Einführung von Intersection  
@@ -19,10 +19,10 @@ EInführung von array
 Einführung von Listen  
 Einführung von Maps  
 
-## :arrow_forward: S2D2 - Advanced Classes
+## :arrow_forward: S2D2 - fortgeschrittene Klassen
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
 Einführung von data modifiers  
 Einführung von ReadOnly  
@@ -31,16 +31,16 @@ Einführung von Abstracts
 ## :arrow_forward: S2D3 - Advanced OOP
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
 Einführung von Modules  
 Einführung von Namespaces  
 
 
-## :arrow_forward: S2D4 - Functional Programming
+## :arrow_forward: S2D4 - Funktionale Programmierung
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-Planned: tbd  
+geplant: tbd  
 
 Arrow Functions (Lambda Expressions)  
 Function Overloading  

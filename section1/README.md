@@ -1,88 +1,87 @@
 
-# Section 1 - Basic Software Programming
+# Section 1 - Grundlegende Programmierkenntnisse
 
-[go back](https://github.com/VDI-CodING/codeING-main)
+[zurück](https://github.com/VDI-CodING/codeING-main)
 
-In this section we will give you an introduction to basic programming concepts in Type Script.  
-:construction:: under construction; :heavy_check_mark:: ready for use
+In diesem Abschitt geben wir eine Einführung in die Grundlagen der Programmierung in Type Script.  
+:construction:: in Arbeit :heavy_check_mark:: bereit zur Nutzung
 
-## :arrow_forward: S1D0 - Setting up your IDE and some basics 
+## :arrow_forward: S1D0 - Einrichten der IDE und erstes Programm
 Lead: @Zangarus (Marwin Madsen)  
 Status: :construction:
-Planned: KW11
+geplant: KW11
 
-This first dojo will be about getting all the basics in place so that you can start programming. We'll show you what software you need, how to install it and how to configure it. We'll also give you some helpful tips and tricks about the development environment and how we collaborate with each other in the Coding Dojos.
+Dieses erste Dojo behandelt alle Grundlagen, sodass du mit dem Programmieren loslegen kannst. Wir zeigen dir die Software, die du brauchst, wie du sie installierst und einrichtest. Zusätzlich geben wir hilfreiche Tips und Tricks für die Entwicklungsumgebung und wie die mit anderen in den Coding Dojos zusammenarbeitest.
 
-The following topics will be addressed:
+Die folgenden Themen werden behandelt:
 
-- Installation and configuration of VS Code as well as the necessary extensions
-- Implementation of your first Hello World program
-- Commenting your program
-- Installation, setup and usage of git and GitHub
-- Tips and tricks for our collaboration in the Coding Dojos
+- Installation und Konfiguration von VS Code und der benötigten Erweiterungen
+- Implementation of your first "Hallo Welt"-Programms
+- Kommentiere dein Programm
+- Installation, Einrichtung und Nutzung von git und GitHub
+- Tips und tricks für unsere Zusammenarbeit in den Coding Dojos
 
-## :arrow_forward: S1D1 - Types and Variables
+## :arrow_forward: S1D1 - Datentypen und Variablen
 Lead: @Blumi102 (Michelle Blumenstein)  
 Status: :construction:
-Planned: KW12
+geplant: KW12
 
-In this Coding Dojo we will give you an introduction to variables and the type system of TypeScript. 
+In diesem Coding Dojo geben wir eine Einführung in Variablen und das Typsystem von TypeScript. 
 
-The following topics will be addressed:
+Die folgenden Themen werden behandelt:
 
-- Declaration of variables using 'var', 'let' and 'const'
-- Scopes of variables (function-scope, global-scope, class-scope)
-- Introduction to the type system in TypeScript consisting of Any Type, Built-in Types and User-defined types and when to use them
-- Working with numbers, booleans, strings, enums and void
-- Working with Any und Unknown
-- Working with Null und Undefined
-- Naming conventions for variables
+- Deklaration von Variablen mit 'var', 'let' und 'const'
+- Sichtbarkeit von Variablen (function-scope, global-scope, class-scope)
+- Einführung in das Typsystem von TypeScript bestehend aus Any Type, eingebauten Typen und benutzerdefinierten Typen und wann man welche verwendet
+- Arbeiten mit numbers, booleans, strings, enums und void
+- Arbeiten mit Any und Unknown
+- Arbeiten mit Null und Undefined
+- Namenskonvention für Variablen
 
 
-## :arrow_forward: S1D2 - Control Flows and Functions
+## :arrow_forward: S1D2 - Kontrollstrukturen und Funktionen
 Lead: @Blumi102 (Michelle Blumenstein)  
 Status: :construction:
-Planned: KW13
+geplant: KW13
 
-In addition to variables, TypeScript programs also consist of control flow statements, expression and functions. In this dojos we will give you an insight into those constructs.
+Zusätzlich zu Variablen bestehen TypeScript-Programme aus Kontrollstrukturen, Ausdrücken und Funktionen. In diesem Dojo geben wir einen Einblick in diese Konstrukte.
 
-The following topics will be addressed:
+Die folgenden Themen werden behandelt:
 
-- Introduction of if statements
-- Introduction of switch statements
-- Introduction of for loops
-- Introduction of while loops
-- Introduction of functions, their declaration and expressions
-- Usage of 'this'
+- Einführung in die if-Anweisung
+- Einführung in die switch-Anweisung
+- Einführung in for-Schleifen
+- Einführung in while-Schleifen
+- Einführung in Funktionen, ihre Deklaration und Ausdrücke
+- Benutzung von 'this'
 
 
-## :arrow_forward: S1D3 - Classes and Interfaces
+## :arrow_forward: S1D3 - Klassen und Schnittstellen
 Lead: @stan1025 (Andreas Stutz)  
 Status: :construction:
-Planned: KW14
+geplant: KW14
 
-After the introduction of types and variables as well as control flows and functions, the next step is to learn something about classes and interfaces.
+Nach der Einführung in sowohl Datentypen und Variablen als auch Kontrollstrukturen und Funktionen is es an der Zeit etwas über Klassen und Schnittstellen zu lernen.
 
-The following topics will be adressed:
-- Introduction into Classes
-- Differences between Objects and Classes
-- Introduction to Interfaces
-- INtroduction to Interface Segregation
+Die folgenden Themen werden behandelt:
+- Einführung in Klassen
+- Unterschiede zwischen Objekten und Klassen
+- Einführung in Schnittstellen
+- Einführung in Interface-Segregation
 
 
 
-## :arrow_forward: S1D4 - Inheritance and Type Checking
+## :arrow_forward: S1D4 - Vererbung und Typprüfung
 Lead: @stan1025 (Andreas Stutz)  
 Status: :construction:
-Planned: KW15
+geplant: KW15
 
-Next to classes and interfaces, inheritance and type checking are also some basic construct from the paradigm of object-oriented programming.
-In this Dojo basic topics into class inheritance and type checking is given.
+Zusätzlich zu Klassen und Schnittstellen sind Vererbung und Typprüfung Basiskonstrukte der objektorientierten Programmierung.In diesem Dojo werden die Grundlagen von Vererbung und Typprüfung gezeigt.
 
-The following topics will be adressed:
-- Introduction to Inheritance
-- Introduction to abstract classes
-- Introduction to Type and Instance Checking
-- Introduction of the 'as' operator
-- Introduction of the '< >' notation
+Die folgenden Themen werden behandelt:
+- Einführung in Vererbung
+- Einführung in abstract classes
+- Einführung in Typ- und Instanzprüfung
+- Einführung in den 'as'-Operator
+- Einführung in die '< >'-Notation
 

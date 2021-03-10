@@ -15,10 +15,10 @@ Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Progr
 
 ## :arrow_forward: Ablaufplan
 
-Format: Wöchentliche Dojos mit Beschreibung, Codebeispielen und Übungen zum Selbstlernen.
-Aufwand: (geplant) max. 2h/Woche - am Anfang eher weniger, mit zunehmender Komplexität steigt auch der Aufwand
-Unterstützung: Aufgabenbeschreibung, Codebeispiele, Literaturverweise, F&A-Kanäle auf github
-Überprüfung: Am Ende jeder Themenwoche gibt es ein kurzes Video des Themenverantwortlichen.
+Format: Wöchentliche Dojos mit Beschreibung, Codebeispielen und Übungen zum Selbstlernen.\n
+Aufwand: (geplant) max. 2h/Woche - am Anfang eher weniger, mit zunehmender Komplexität steigt auch der Aufwand\n
+Unterstützung: Aufgabenbeschreibung, Codebeispiele, Literaturverweise, F&A-Kanäle auf github\n
+Überprüfung: Am Ende jeder Themenwoche gibt es ein kurzes Video des Themenverantwortlichen.\n
 
 Sofern nötig können Videokonferenzen zum diskutieren der Aufgaben und Ergebnisse organisiert werden.
 

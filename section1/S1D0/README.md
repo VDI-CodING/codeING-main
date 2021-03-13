@@ -89,6 +89,7 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
    1. Füge eine Regel zum Benutzen von Kommandozeilenbefehlen zu .eslintrc.json hinzu:
       ```json
       "no-console": 0
+      "@typescript-eslint/no-explicit-any": 2
       ```
    1. Konfiguriere eslint nicht jede Datei zu linten:
       Mac und Linux:

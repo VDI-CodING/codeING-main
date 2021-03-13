@@ -1,49 +1,49 @@
-# Welcome to CodeING
+# Willkommen zu CodeING
 
-## :arrow_forward: Introduction
+## :arrow_forward: Einleitung
 
-CodeING is an offer of the youth talent network 'Young Engineers' of the Assocation of German Engineers.
-From Engineers for Engineers is our motto.
+CodeING ist ein Angebot des Netzwerks 'Young Engineers' des Vereins Deutscher Ingenieure.
+Von Ingenieuren für Ingenieure ist unser Motto.
 
-Software Engineers provide exercises (called Dojos) to teach basic and advanced programming skills and a following chapter as introduction into software architecture.
+Softwareentwickler stellen Übungen (Dojos genannt) bereit, um Grund- und fortgeschrittene Programmierkenntnisse zu lehren. Ein folgendes Kapitel dient als Einführung in Softwarearchitektur.
 
-## :arrow_forward: Prerequisites
+## :arrow_forward: Voraussetzungen
 
-- no prerequisites
+- keine Voraussetzungen
 
-Our target is to provide easy understandable topic dojos to guide you throught the learning steps for the programming language TypeScript.
+Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Programmiersprache Typescript heranzuführen.
 
-## :arrow_forward: Executive Schedule
+## :arrow_forward: Ablaufplan
 
-Format: weekly coding dojos with some basic descriptions, code examples and exercises for practical learning.
-Effort: (planned) max. 2h/week - at the beginning rather less, with increasing complexity the effort also increases
-Support: exercise description, code examples, literature links, Q&A channels on github
-Validation: at the end of each topic week, a short video from the topic lead will be provided.
+Format: Wöchentliche Dojos mit Beschreibung, Codebeispielen und Übungen zum Selbstlernen.<br>
+Aufwand: (geplant) max. 2h/Woche - am Anfang eher weniger, mit zunehmender Komplexität steigt auch der Aufwand<br>
+Unterstützung: Aufgabenbeschreibung, Codebeispiele, Literaturverweise, F&A-Kanäle auf github<br>
+Überprüfung: Am Ende jeder Themenwoche gibt es ein kurzes Video des Themenverantwortlichen.<br>
 
-If required, live sessions can also be organized to check the exercises and results.
+Sofern nötig können Videokonferenzen zum diskutieren der Aufgaben und Ergebnisse organisiert werden.
 
-## :arrow_forward: Topic Overview
+## :arrow_forward: Themenüberblick
 
-[:construction:] Section 1 - [Basic Software Programming](section1/README.md)  
-[:construction:] Section 2 - [Advanced Software Programming](section2/README.md)  
-[:construction:] Section 3 - [Software Architecture](section3/README.md)  
+[:construction:] Section 1 - [grundlegende Programmierkenntnisse](section1/README.md)  
+[:construction:] Section 2 - [fortgeschrittene Programmierkenntnisse](section2/README.md)  
+[:construction:] Section 3 - [Softwarearchitektur](section3/README.md)  
 
-:construction:: under construction; :heavy_check_mark:: ready for use
+:construction:: in Arbeit :heavy_check_mark:: bereit zur Nutzung
 
-## :arrow_forward: Topic Leads
+## :arrow_forward: Themenverantwortung
 
-- @Blumi102 - Michelle Blumenstein (Basic Topics)
-- @stan1025 - Andreas Stutz (Basic Topics, Architecture Topics,  Community Management)
-- @Zangarus - Marwin Madsen (Advanced Topics, Architecture Topics)
+- @Blumi102 - Michelle Blumenstein (Grundkenntnisse)
+- @stan1025 - Andreas Stutz (Grundkenntnisse, Architekturthemen,  Community Management)
+- @Zangarus - Marwin Madsen (Fortgeschrittene Programmiertechniken, Architekturthemen)
 
 ## :arrow_forward: CodeING-Team
 
-- @Blumi102 - Michelle Blumenstein (Research Associate and PhD candidate at Helmut-Schmidt University Hamburg)
-- @stan1025 - Andreas Stutz (Research Engineer within Siemens and PhD candidate at Helmut-Schmidt University Hamburg)
-- @Zangarus - Marwin Madsen (Computer Science Student at Karlsruher Institute of Technology KIT)
-- @benedikt255 - Benedikt Geib (Project Engineer at SEW Eurodrive in Bruchsal)
-- @Philipp1L2P - Philipp Gesner (PhD candidate at Daimler in Stuttgart)
+- @Blumi102 - Michelle Blumenstein (Wissenschaftliche Mitarbeiterin und Doktorandin an der Helmut-Schmidt Universität Hamburg)
+- @stan1025 - Andreas Stutz (Forschungsingenieur bei Siemens und Doktorand an der Helmut-Schmidt Universität Hamburg)
+- @Zangarus - Marwin Madsen (Informatikstudent am Karlsruher Institute of Technology KIT)
+- @benedikt255 - Benedikt Geib (Projektingenieur bei SEW-Eurodrive in Bruchsal)
+- @Philipp1L2P - Philipp Gesner (Doktorant bei Daimler in Stuttgart)
 
-## :e-mail: Contact
-Contact one of the team members or write into the [Community Portal](https://github.com/stan1025/codeING-main/discussions)!
+## :e-mail: Kontakt
+Kontaktiere eines der Teammitglieder oder schreibe in das [Community Portal](https://github.com/stan1025/codeING-main/discussions)!
 

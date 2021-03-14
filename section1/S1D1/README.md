@@ -31,7 +31,7 @@ Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwic
   - b = 5
   - c = 6
 - Gib a, b und c als Log-Eintrag in der Console aus.
-- Speichere dein Programm ab und führe es aus. Was fällt dir auf? Kannst du das erklären?
+- Speichere dein Programm ab und führe es aus. Was fällt dir auf? Was musst du tun, damit das Programm ausführbar wird?
 
 ### c) Typsystem vom Type Script
 - Überschreibe den Wert der Variable y (aus Aufgabe b) mit dem string 'fünf'.

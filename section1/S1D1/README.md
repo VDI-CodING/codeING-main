@@ -34,7 +34,7 @@ Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwic
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf? Was musst du tun, damit das Programm ausführbar wird?
 
 ### c) Typsystem vom Type Script
-- Überschreibe den Wert der Variable y (aus Aufgabe b) mit dem string 'fünf'.
+- Überschreibe den Wert der Variable b (aus Aufgabe b) mit dem string 'fünf'.
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf? Kannst du das erklären?
 
 ---

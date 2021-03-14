@@ -11,7 +11,7 @@ Java Script (JS) startete als einfache Script-Sprache, die vorrangig für kleine
 
 Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwickelt. Dabei stellt JS eine Teilmenge von TS dar, d.h. jedes JS-Programm ist gleichzeitig ein gültiges TS-Programm, aber nicht umgekehrt. Im Unteschied zu JS bringt TS (wie der Name bereits vermuten lässt) ein Typsystem mit. Um genau dieses Typsystem soll es in diesem ersten Dojo gehen.
 ---
-Hilfreiche Links:
+## Hilfreiche Links
 - https://www.tutorialspoint.com/typescript/index.htm
 - https://www.typescripttutorial.net/ (Section 2 - Basic Types)
 - https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/

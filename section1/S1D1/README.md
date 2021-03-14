@@ -103,7 +103,7 @@ Programmierkonventionen sind formelle Regeln, die du bei der Programmierung beac
 - Identifier dürfen abgesehen von Unterstrichen (_) und Dollarzeichen ($) keine Sonderzeichen enthalten.
 - Identifier dürfen keine Keywords (= Schlüsselbegriffe von Type Script, z.B. var, string, class, function, ...) sein.
 - Identifier dürfen eine Leerzeichen enthalten.
-- Identifier müssen einzigartig sein, d.h. es dürfen eine zwei Variable innerhalb des geichen Programmteils gleich heißen.
+- Identifier müssen einzigartig sein, d.h. es dürfen nicht mehrere Variable innerhalb des geichen Programmteils gleich heißen.
 - Type Script ist case-sensitive, d.h. es macht einen Unterschied, ob z.B. ein Identifier groß oder klein geschrieben ist.
 - Bei vielen Programmiersprachen wird ein Semikolon ans Ende jeder Zeile gesetzt. Bei Type Script sind diese optional.
 

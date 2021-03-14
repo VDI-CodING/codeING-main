@@ -30,7 +30,7 @@ Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwic
   - a = 4
   - b = 5
   - c = 6
-- Gib x, y und z als Log-Eintrag in der Console aus.
+- Gib a, b und c als Log-Eintrag in der Console aus.
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf? Kannst du das erklären?
 
 ### c) Typsystem vom Type Script

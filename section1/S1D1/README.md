@@ -79,7 +79,7 @@ Findest du heraus, wie du deinen Code von Übung 1 auskommentieren kannst, bevor
 a) Was ist der Unterschied zwischen null und undefined?
 
 b) Any vs. unknown Vol. 1
-- Deklariere eine Variable t vom Typ any und eine u vom Typ unknown.
+- Deklariere eine Variable t vom Typ any und eine Variable u vom Typ unknown.
 - Weise beiden Variablen den Wert 10 zu und gib sie in der Console aus.
 - Weise anschließend beiden Variablen den string 'zehn' zu und gib sie in der Console aus.
 - Speichere dein Programm ab und führe es aus.

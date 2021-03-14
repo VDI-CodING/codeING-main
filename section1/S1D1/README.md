@@ -97,7 +97,7 @@ d) Any vs. unknown Vol. 3
 
 ## Übung 4 Programmierkonventionen
 
-Programmierkonventionen sind formelle Regeln, die ihr bei der Programmierung beachten müsst. Einige wichtige Programmierkonventionen von Type Script sind die folgenden:
+Programmierkonventionen sind formelle Regeln, die du bei der Programmierung beachten musst. Einige wichtige Programmierkonventionen von Type Script sind die folgenden:
 
 - Identifier (= Variablenbezeichnungen) können aus Buchstaben und Ziffern bestehen. Allerdings dürfen sie nicht mit einer Ziffer beginnen.
 - Identifier dürfen abgesehen von Unterstrichen (_) und Dollarzeichen ($) keine Sonderzeichen enthalten.

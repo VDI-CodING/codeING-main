@@ -65,7 +65,7 @@ Findest du heraus, wie du deinen Code von Übung 1 auskommentieren kannst, bevor
 - Deklariere...
   - eine Variable e vom Typ string mit dem string '5',
   - eine Variable f vom Typ string mit dem string '10' und 
-  - eine Variable g vom Typ string, die die Summe b + c enthält.
+  - eine Variable g vom Typ string, die die Summe e + f enthält.
 - Gib alle drei Variablen in der Console aus.
 - Speichere dein Programm ab und führe es aus. Was fällt dir im Vergleich zur vorherigen Aufgabe auf?
 

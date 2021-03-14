@@ -22,11 +22,14 @@ Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwic
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf? Kannst du das erklären?
 
 ### b) Besonderheit von const
-- Deklariere die gleichen Variablen wie unter Aufgabe a erneut.
-- Weise ihnen die folgenden Werte zu:
-  - x = 4
-  - y = 5
-  - z = 6
+- Deklariere...
+  -  eine Variable a über const mit dem Wert 1,
+  -  eine Variable b über let mit dem Wert 2 und
+  -  eine Variable c über var mit dem Wert 3.
+- Überschreibe die Werte anschließend wie folgt:
+  - a = 4
+  - b = 5
+  - c = 6
 - Gib x, y und z als Log-Eintrag in der Console aus.
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf? Kannst du das erklären?
 

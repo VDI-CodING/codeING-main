@@ -10,7 +10,9 @@ geplant: KW12
 Java Script (JS) startete als einfache Script-Sprache, die vorrangig für kleine Browser-Anwendungen verwendet wurde. Aufgrund seines plattformunabhängigen Charakters wurde JS im Laufe der Zeit jedoch auch für größere Applikationen, die außerhalb des Browsers (sondern z.B. auf einem nodeJS-Server) laufen, immer beliebter. Mit dieser Entwicklung fiel allerdings ein Nachteil von JS immer stärker ins Gewicht - es besitzt kein Typsystem. Bei den früheren kleinen Browser-Anwendungen war es noch möglich, auch ohne die Definition von Datentypen den Überblick zu behalten. Bei den heutigen Anwendungen mit mehreren tausend Zeilen Code ist das nicht mehr machbar. 
 
 Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwickelt. Dabei stellt JS eine Teilmenge von TS dar, d.h. jedes JS-Programm ist gleichzeitig ein gültiges TS-Programm, aber nicht umgekehrt. Im Unteschied zu JS bringt TS (wie der Name bereits vermuten lässt) ein Typsystem mit. Um genau dieses Typsystem soll es in diesem ersten Dojo gehen.
+
 ---
+
 ## Hilfreiche Links
 - https://www.tutorialspoint.com/typescript/index.htm
 - https://www.typescripttutorial.net/ (Section 2 - Basic Types)

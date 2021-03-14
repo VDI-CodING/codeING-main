@@ -10,7 +10,7 @@ Softwareentwickler stellen Übungen (Dojos genannt) bereit, um Grund- und fortge
 ## :arrow_forward: Voraussetzungen
 
 - Grundlegende Computerkenntnisse
-- [:construction:] Entwicklungsumgebung - [Installationsanleitung](preconditions.md)
+- [:heavy_check_mark:] Entwicklungsumgebung - [Installationsanleitung](preconditions.md)
 
 Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Programmiersprache Typescript heranzuführen.
 

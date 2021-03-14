@@ -11,14 +11,14 @@ Lead: @Zangarus (Marwin Madsen)
 Status: :construction:
 geplant: KW11
 
-Dieses erste Dojo behandelt alle Grundlagen, sodass du mit dem Programmieren loslegen kannst. Wir zeigen dir die Software, die du brauchst, wie du sie installierst und einrichtest. Zusätzlich geben wir hilfreiche Tips und Tricks für die Entwicklungsumgebung und wie die mit anderen in den Coding Dojos zusammenarbeitest.
+Dieses erste Dojo behandelt alle Grundlagen, sodass du mit dem Programmieren loslegen kannst. Wir zeigen dir die Software, die du brauchst, einrichtest. Zusätzlich geben wir hilfreiche Tips und Tricks für die Entwicklungsumgebung und wie die mit anderen in den Coding Dojos zusammenarbeitest.
 
 Die folgenden Themen werden behandelt:
 
-- Installation und Konfiguration von VS Code und der benötigten Erweiterungen
+- Konfiguration von VS Code und der benötigten Erweiterungen
 - Implementation of your first "Hallo Welt"-Programms
 - Kommentiere dein Programm
-- Installation, Einrichtung und Nutzung von git und GitHub
+- Einrichtung und Nutzung von git und GitHub
 - Tips und tricks für unsere Zusammenarbeit in den Coding Dojos
 
 ## :arrow_forward: S1D1 - Datentypen und Variablen

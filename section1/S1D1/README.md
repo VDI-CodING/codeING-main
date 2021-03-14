@@ -58,7 +58,7 @@ Findest du heraus, wie du deinen Code von Übung 1 auskommentieren kannst, bevor
 - Gib alle drei Variablen in der Console aus.
 - Speichere dein Programm ab und führe es aus.
 
-### c) string
+### c) String
 - Deklariere...
   - eine Variable e vom Typ string mit dem string '5',
   - eine Variable f vom Typ string mit dem string '10' und 

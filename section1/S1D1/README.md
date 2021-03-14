@@ -93,7 +93,7 @@ c) Any vs. unknown Vol. 2
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf?
 
 d) Any vs. unknown Vol. 3
-- Ändere den Datentyp der Variable w im Programm aus Aufgabe b zu unknown.
+- Ändere den Datentyp der Variable w im Programm aus Aufgabe c zu unknown.
 - Speichere dein Programm ab und führe es erneut aus. Was fällt dir auf? Was kannst du über den Unterschied zwischen any und unknown sagen?
 
 ---

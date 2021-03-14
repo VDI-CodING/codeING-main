@@ -105,7 +105,7 @@ Programmierkonventionen sind formelle Regeln, die du bei der Programmierung beac
 - Identifier dürfen eine Leerzeichen enthalten.
 - Identifier müssen einzigartig sein, d.h. es dürfen nicht mehrere Variable innerhalb des geichen Programmteils gleich heißen.
 - Type Script ist case-sensitive, d.h. es macht einen Unterschied, ob z.B. ein Identifier groß oder klein geschrieben ist.
-- Bei vielen Programmiersprachen wird ein Semikolon ans Ende jeder Zeile gesetzt. Bei Type Script sind diese optional.
+- Bei vielen Programmiersprachen wird ein Semikolon ans Ende jeder Zeile gesetzt. Bei Type Script ist das optional.
 
 Die Übung besteht darin, diese Programmierkonvetionen auszutesten. Lege z.B. Variablen mit verschiedenen Namen an, die Buchstaben, Ziffern und Sonderzeichen enthalten. Teste aus, was Type Script zulässt und was nicht.
 

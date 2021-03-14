@@ -1,4 +1,4 @@
-# :arrow_forward: S1D3 - Datentypen und Variablen
+# :arrow_forward: S1D1 - Datentypen und Variablen
 
 Lead: @Blumi102 (Michelle Blumenstein)  
 Status: :construction:

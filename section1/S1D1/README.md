@@ -22,7 +22,7 @@ Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwic
 - Speichere dein Programm ab und führe es aus. Was fällt dir auf? Kannst du das erklären?
 
 ### b) Besonderheit von const
-- Deklariere die gleichen Variablen wie unter Aufgabe a).
+- Deklariere die gleichen Variablen wie unter Aufgabe a.
 - Weise ihnen die folgenden Werte zu:
   - x = 4
   - y = 5

@@ -7,12 +7,12 @@ Von Ingenieuren für Ingenieure ist unser Motto.
 
 Softwareentwickler stellen Übungen (Dojos genannt) bereit, um Grund- und fortgeschrittene Programmierkenntnisse zu lehren. Ein folgendes Kapitel dient als Einführung in Softwarearchitektur.
 
-## :arrow_forward: Voraussetzungen
+Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Programmiersprache Typescript heranzuführen.
+
+## :arrow_forward: Vorbereitung
 
 - Grundlegende Computerkenntnisse
 - [:heavy_check_mark:] Entwicklungsumgebung - [Installationsanleitung](preconditions.md)
-
-Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Programmiersprache Typescript heranzuführen.
 
 ## :arrow_forward: Ablaufplan
 

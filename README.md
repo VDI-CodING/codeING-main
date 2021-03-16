@@ -4,9 +4,7 @@
 
 CodeING ist ein Angebot des Netzwerks 'Young Engineers' des Vereins Deutscher Ingenieure.
 Von Ingenieuren für Ingenieure ist unser Motto.
-
 Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Programmiersprache Typescript heranzuführen.
-
 Softwareentwickler stellen Übungen (Dojos genannt) bereit, um Grund- und fortgeschrittene Programmierkenntnisse zu lehren. Ein folgendes Kapitel dient als Einführung in Softwarearchitektur.
 
 ## :arrow_forward: Vorbereitung

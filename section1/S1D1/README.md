@@ -1,7 +1,7 @@
 # :arrow_forward: S1D1 - Datentypen und Variablen
 
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :construction:
+Status: :heavy_check_mark:
 geplant: KW12
 
 ---
@@ -118,9 +118,6 @@ Programmierkonventionen sind formelle Regeln, die du bei der Programmierung beac
 - Bei vielen Programmiersprachen wird ein Semikolon ans Ende jeder Zeile gesetzt. Bei Type Script ist das optional.
 
 Die Übung besteht darin, diese Programmierkonvetionen auszutesten. Lege z.B. Variablen mit verschiedenen Namen an, die Buchstaben, Ziffern und Sonderzeichen enthalten. Teste aus, was Type Script zulässt und was nicht.
-
-
-[:construction:] Whitespace and Line Breaks
 
 
 

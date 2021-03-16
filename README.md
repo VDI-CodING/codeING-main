@@ -2,8 +2,8 @@
 
 ## :arrow_forward: Einleitung
 
-CodeING ist ein Angebot des Netzwerks 'Young Engineers' des Vereins Deutscher Ingenieure.
-Von Ingenieuren für Ingenieure ist unser Motto.
+CodeING ist ein Angebot des Netzwerks 'Young Engineers' des Vereins Deutscher Ingenieure.<br>
+Von Ingenieuren für Ingenieure ist unser Motto.<br>
 Unser Ziel ist es mit einfachen, verständlichen Dojos Schrittweise an die Programmiersprache Typescript heranzuführen.
 Softwareentwickler stellen Übungen (Dojos genannt) bereit, um Grund- und fortgeschrittene Programmierkenntnisse zu lehren. Ein folgendes Kapitel dient als Einführung in Softwarearchitektur.
 
@@ -19,7 +19,7 @@ Aufwand: (geplant) max. 2h/Woche - am Anfang eher weniger, mit zunehmender Kompl
 Unterstützung: Aufgabenbeschreibung, Codebeispiele, Literaturverweise, F&A-Kanäle auf github<br>
 Überprüfung: Am Ende jeder Themenwoche gibt es ein kurzes Video des Themenverantwortlichen.<br>
 
-Sofern nötig können Videokonferenzen zum diskutieren der Aufgaben und Ergebnisse organisiert werden.
+Sofern nötig können Videokonferenzen zum Diskutieren der Aufgaben und Ergebnisse organisiert werden.
 
 ## :arrow_forward: Themenüberblick
 

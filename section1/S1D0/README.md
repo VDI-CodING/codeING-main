@@ -226,5 +226,5 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
    "start-dev": "ts-node src/app.ts",
    "start-watch": "nodemon",
    "build": "tsc",
-   "lint": "eslint src/** --fix --cache"
+   "lint": "eslint src/** --fix --cache",
    ```

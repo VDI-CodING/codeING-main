@@ -6,13 +6,19 @@ Lead: @Zangarus (Marwin Madsen)
 
 Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
 
-1. Initialisiere git:  (TODO: man sollte es auch zu einem Online Repo hinzufügen, sonst ist dieser Schritt überflüssig)
+1. Herunterladen (clone) des Repository: 
 
    ```sh
-   git init
+   git clone https://github.com/VDI-CodING/codeING-main.git
    ```
 
-1. Setze ein npm package auf (Nutze einfach die Standardeinstellungen):
+1. Wechseln in das Verzeichnis:
+
+   ```sh
+   cd codeING-main
+   ```
+
+1. Setze ein npm package auf (Standardeinstellungen):
 
    ```sh
    npm init
@@ -111,17 +117,19 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
       npm install -D eslint
       ```
 
-   1. konfiguriere eslint:
+   1. Konfiguriere eslint:
 
       ```sh
       ./node_modules/.bin/eslint --init
       ```
 
-   1. Füge eine Regel zum Benutzen von Kommandozeilenbefehlen zu .eslintrc.json hinzu:
+   1. Füge Regeln für den Linter zu .eslintrc.json hinzu:
 
       ```json
-      "no-console": 0
-      "@typescript-eslint/no-explicit-any": 2
+      "no-console": 0,
+      "@typescript-eslint/no-explicit-any": 2,
+      "no-unused-vars": 0,
+      "@typescript-eslint/no-unused-vars": 2
       ```
 
    1. Konfiguriere eslint nicht jede Datei zu linten:
@@ -178,24 +186,14 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
       }
       ```
 
-2. Füge Skripte zu package.json hinzu:
-
-   ```json
-   "start": "npm run build && node build/app.ts"
-   "start-dev": "ts-node src/app.ts",
-   "start-watch": "nodemon",
-   "build": "tsc",
-   "lint": "eslint src/** --fix --cache"
-   ```
-
-3. Installiere und konfiguriere nodemon:
+1. Installiere und konfiguriere nodemon:
    1. Install nodemone als Entwicklungsvoraussetzung:
 
       ```sh
       npm install -D nodemon
       ```
 
-   2. Konfiguriere nodemon:
+   1. Konfiguriere nodemon:
 
       ```sh
       touch nodemon.json
@@ -213,9 +211,20 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
             "**/*.test.ts",
             "**/*.spec.ts",
             "node_modules",
-            ".git"
+            ".git",
+            "build"
          ],
          "delay": 3,
          "exec": "npm run start-dev"
       }
       ```
+
+1. Füge Skripte zu package.json hinzu:
+
+   ```json
+   "start": "npm run build && node build/app.ts"
+   "start-dev": "ts-node src/app.ts",
+   "start-watch": "nodemon",
+   "build": "tsc",
+   "lint": "eslint src/** --fix --cache"
+   ```

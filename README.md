@@ -29,6 +29,13 @@ Sofern nötig können Videokonferenzen zum Diskutieren der Aufgaben und Ergebnis
 
 :construction:: in Arbeit :heavy_check_mark:: bereit zur Nutzung
 
+## :cinema: Video-Ablage der Aufzeichnungen
+
+Unter diesem Link werden alle Aufzeichnungen bereitgestellt. 
+
+Bei Problemen mit dem Zugriff auf diesen OneDrive Link bitte an @stan1025 wenden!
+https://1drv.ms/u/s!Apib2MdOJ2WvtowzTb6CDyAlCSZ8xw?e=m7mWw9
+
 ## :arrow_forward: Themenverantwortung
 
 - @Blumi102 - Michelle Blumenstein (Grundkenntnisse)

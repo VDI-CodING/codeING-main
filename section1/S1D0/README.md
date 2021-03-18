@@ -1,5 +1,9 @@
 # Section 1 - Grundlagen
 
+## :cinema: S1D0 - Aufzeichnung des Kickoffs und der Einrichtung  
+Bei Problemen mit dem Zugriff auf diesen OneDrive Link bitte an @stan1025 wenden!
+https://1drv.ms/u/s!Apib2MdOJ2WvtowzTb6CDyAlCSZ8xw?e=m7mWw9
+
 ## :arrow_forward: S1D0 - Einrichtung
 
 Lead: @Zangarus (Marwin Madsen)
@@ -222,7 +226,7 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
 1. Füge Skripte zu package.json hinzu:
 
    ```json
-   "start": "npm run build && node build/app.ts"
+   "start": "npm run build && node build/app.ts",
    "start-dev": "ts-node src/app.ts",
    "start-watch": "nodemon",
    "build": "tsc",

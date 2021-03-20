@@ -19,21 +19,31 @@ Diese Woche gibt es den Einstieg in die grundlegenden objekt-orientierten Sprach
 ---
 ### Aufgabe 1 - Klassen und ihre Bestandteile:
 
-#### A) Die einfachste und gleichzeitig unnötigste Klasse
+#### A) Die Klasse 'Mensch'
 
-      ```ts
-        class Mensch {}
-      ```
+Ein Mensch 
 
-Eine neue Klasse wird mit dem 
+In dieser Teilaufgabe werden wir eine neue Klasse 'Mensch' erstellen. Jeder Mensch besitzt gewisse Eigenschaften und Fähigkeiten.
+Eigenschaften werden in Klassen Members genannt.
+
+[ ] Die Klasse 'Mensch' soll folgende Members beinhalten:
+- Vorname vom Typ 'string'
+- Nachname vom Typ 'string'
 
 
+Wenn man eine Klasse instanziiert wird ein Objekt daraus.
+Mit Hilfe sogenannter Konstruktoren werden solche Objekte erzeugt.
+Constructors nennt man die Methoden-ähnliche Sprachkonstrukte die zum Erzeugen von Objekten einer Klasse genutzt werden.
+
+[ ] Die Klasse 'Mensch' soll bei der Konstruktion direkt mit einem Vor- und Nachnamen versehen werden
+- Konstruktor mit einem Vorname und einem Nachname Parameter deren Wert auf die Member Vorname und Nachname zugewiesen werden.
 
 
-Nach der Einführung in sowohl Datentypen und Variablen als auch Kontrollstrukturen und Funktionen is es an der Zeit etwas über Klassen und Schnittstellen zu lernen.
+Fähigkeiten werden in Klassen durch Methoden umgesetzt. Methoden führen Funktion auf Eigenschaften des Objekts aus.
+Jeder Mensch besitzt einige grundlegende Fähigkeiten.
 
-Die folgenden Themen werden behandelt:
-- Einführung in Klassen
-- Unterschiede zwischen Objekten und Klassen
-- Einführung in Schnittstellen
-- Einführung in Interface-Segregation
+[ ] Die Klasse 'Mensch' soll folgende Methoden beinhalten:
+- Atmen (keine Parameter)
+- Denken (topic: string)
+- Herzschlag (bpm: int)
+

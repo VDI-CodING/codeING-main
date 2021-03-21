@@ -27,10 +27,10 @@ Schritte zum Erstellen des node-Projektes, welches wir als Template nutzen:
    Bei jeder Frage Enter drücken, um die Standardeinstellungen zu übernehmen.
 
 1. Installiere typescript und richte es als Entwicklungsvoraussetzung ein:
-   1. Füge die Voraussetzung hinzu:
+   1. Füge die Voraussetzung global und lokal hinzu:
 
       ```sh
-      npm install -g typescript
+      npm install -g -D typescript
       ```
 
    1. Erstelle `tsconfig.json`:

@@ -1,4 +1,4 @@
-# Willkommen zu CodeING
+# Willkommen zu CodeING...
 
 ## :arrow_forward: Einleitung
 

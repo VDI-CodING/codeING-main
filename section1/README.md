@@ -9,7 +9,8 @@ In diesem Abschitt geben wir eine Einführung in die Grundlagen der Programmieru
 ## :arrow_forward: S1D0 - Einrichten der IDE und erstes Programm
 Lead: @Zangarus (Marwin Madsen)  
 Status: :heavy_check_mark:
-geplant: KW11
+geplant: KW11  
+[link](S1D0/README.md)  
 
 Dieses erste Dojo behandelt alle Grundlagen, sodass du mit dem Programmieren loslegen kannst. Wir zeigen dir die Software, die du brauchst, einrichtest. Zusätzlich geben wir hilfreiche Tips und Tricks für die Entwicklungsumgebung und wie die mit anderen in den Coding Dojos zusammenarbeitest.
 
@@ -24,7 +25,8 @@ Die folgenden Themen werden behandelt:
 ## :arrow_forward: S1D1 - Datentypen und Variablen
 Lead: @Blumi102 (Michelle Blumenstein)  
 Status: :heavy_check_mark:
-geplant: KW12
+geplant: KW12  
+[link](S1D1/README.md)
 
 In diesem Coding Dojo geben wir eine Einführung in Variablen und das Typsystem von TypeScript. 
 

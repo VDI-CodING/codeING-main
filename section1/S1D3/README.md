@@ -21,29 +21,54 @@ Diese Woche gibt es den Einstieg in die grundlegenden objekt-orientierten Sprach
 
 #### A) Die Klasse 'Mensch'
 
-Ein Mensch 
+Ein Mensch als Software-Repräsentanz besteht aus der Klasse Mensch, mit dedizierten Eigenschaften und Methoden,
+die entsprechende menschliche Merkmale und Handlungsmöglichkeiten repräsentieren.   
+Im ersten Schritt legt ihr nun eine leere Klasse mit dem Klassen-Namen 'Mensch' an. [Literatur](https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members)
 
-In dieser Teilaufgabe werden wir eine neue Klasse 'Mensch' erstellen. Jeder Mensch besitzt gewisse Eigenschaften und Fähigkeiten.
-Eigenschaften werden in Klassen Members genannt.
-
-[ ] Die Klasse 'Mensch' soll folgende Members beinhalten:
-- Vorname vom Typ 'string'
-- Nachname vom Typ 'string'
+[ ] Erstelle die "most basic" Klasse 'Mensch' (erstmal ohne Eigenschaften und Methoden)  
 
 
-Wenn man eine Klasse instanziiert wird ein Objekt daraus.
-Mit Hilfe sogenannter Konstruktoren werden solche Objekte erzeugt.
-Constructors nennt man die Methoden-ähnliche Sprachkonstrukte die zum Erzeugen von Objekten einer Klasse genutzt werden.
+Ein Mensch besitzt unterschiedliche Eigenschaften. In unserem Beispiel beginnen wir im ersten Schritt mit einigen grundlegenden Eigenschaften.
+Jeder Mensch besitzt einen Vornamen, einen Nachnamen, ein Geburtsdatum.   
+Lege im folgenden diese drei genannten Eigenschaften in der Klasse 'Mensch' an. [Literatur](https://www.typescriptlang.org/docs/handbook/2/classes.html#fields)
 
-[ ] Die Klasse 'Mensch' soll bei der Konstruktion direkt mit einem Vor- und Nachnamen versehen werden
-- Konstruktor mit einem Vorname und einem Nachname Parameter deren Wert auf die Member Vorname und Nachname zugewiesen werden.
+[ ] Erstelle eine Eigenschaft 'Vorname' als 'string' in der Klasse 'Mensch'  
+[ ] Erstelle eine Eigenschaft 'Nachname' als 'string' in der Klasse 'Mensch'  
+[ ] Erstelle eine Eigenschaft 'Geburstag' als 'DateTime' in der Klasse 'Mensch'  
 
 
-Fähigkeiten werden in Klassen durch Methoden umgesetzt. Methoden führen Funktion auf Eigenschaften des Objekts aus.
-Jeder Mensch besitzt einige grundlegende Fähigkeiten.
+Das Leben eines Menschen beginnt mit dessen Geburt. In der Programmierung übernimmt ein sogenannter 'Constructor' die Geburt eines neuen Objekts einer Klasse.
+Hierzu wird das Schlüsselwort 'new' verwendet. Mit der Geburt eines Objektes, wird automatisch sein Geburtstag festgelegt. Im nächsten Schritt sind hierfür zwei Dinge zu erledigen.
+Zum einen ist ein Constructor anzulegen, mit jeweils einem Parameter für 'Vorname' und 'Nachname' und zum anderen ist der Geburtstag auf den heutigen Tag und die heutige Uhrzeit zu setzen.
+Lege hierzu einen Constructor an und setze die Eigenschaft des Geburtstags innerhalb des Constructors.
+[Literatur - Konstruktoren](https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors)
+[Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)
+[Literatur - This-Type Notation](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-types)
 
-[ ] Die Klasse 'Mensch' soll folgende Methoden beinhalten:
-- Atmen (keine Parameter)
-- Denken (topic: string)
-- Herzschlag (bpm: int)
+[ ] Erstelle einen Konstruktor mit den Parametern 'Vorname' und 'Nachname'
+[ ] Weise die Konstruktor-Parameter 'Vorname' und 'Nachname' den entsprechenden Eigenschaften der Klasse zu. (Beachte die Notation im Konstruktor-Beispiel im angegebenen Link)
+
+
+Der Geburtstag eines Menschen ist eineindeutig festgelegt und kann faktisch nicht geändert werden. Gleiches gilt auch für die Eigenschaft des Geburtstags unsere Klasse 'Mensch'.
+Für Informationen die nach dem Aufruf des Konstruktors nicht mehr änderbar sein sollen, bietet die Programmiersprache die Möglichkeit eine Eigenschaft als readonly zu deklarieren.
+Da der Geburtstag nicht, bzw. noch nicht (Zeitreisen und so) geändert werden kann, ist diese Eigenschaft auf nur lesbar zu setzen, was im nächsten Schritt zu tun ist.
+[Literatur](https://www.typescriptlang.org/docs/handbook/2/classes.html#readonly)
+
+[ ] Deklariere die Eigenschaft 'Geburtstag' als 'readonly', womit diese nur im Konstruktor gesetzt werden kann.
+
+
+Im nächsten Punkt widmen wir uns dem Thema Privatsphäre. Nicht erst seit Einführung der DSGVO ist das Thema Privatsphäre und Informationssicherheit in Deutschland und Europa großgeschrieben.
+Jeder Mensch hat somit Eigenschaften, die nicht alle etwas angehen. Mit Vorname, Nachname und Geburtstag haben wir jedoch durchaus Informationen bei denen wir es mit der Informationssicherheit nicht so eng sehen. Aus diesem Grund führen wir eine neue Information ein - die Blutgruppe. Blutgruppen werden in folgende 8 Typen unterschieden: '0minus', '0plus', 'Bminus', 'Bplus', 'Aminus', 'Aplus', 'ABminus' und 'ABplus'. Hierzu legt ihr einen Enumerations-Datentypen an, der die entsprechenden 8 Ausprägungen besitzt. Nach der Definition des Enums ist eine neue Eigenschaft zu erstellen, die nicht öffentlich zugänglich ist (private). Die Blutgruppe ist im Konstruktor zu ergänzen.
+[Literatur - Blutgruppen](https://de.wikipedia.org/wiki/Blutgruppe) (aufgelistet aus Gründen der wissenschaftlichen Gründlichkeit)
+[Literatur - Sichtbarkeit der Eigenschaften](https://www.typescriptlang.org/docs/handbook/2/classes.html#member-visibility)
+
+[ ] Erstelle eine Enumeration 'enumBlutGruppe' mit den genannten 8 Einträgen
+[ ] Erstelle eine neue Eigenschaft namens 'Blutgruppe' mit dem Datentyp 'enumBlutGruppe'
+[ ] Deklariere die neue Eigenschaft 'Blutgruppe' als private Information
+
+Aus Gründen der Lesbarkeit schreiben viele Entwickler die Sichtbarkeit von Eigenschaften explizit immer an deren Deklaration.
+Wenn ihr keine Klassifizierung der Sichtbarkeit ergänzt, wird Typescript jeden Member als 'public/öffentlich' deklarieren. Diese Verhalten ist auf JavaScript zurückzuführen.
+In anderen Sprachen, z.B. C# oder Java, ist die Standard-Sichtbarkeit 'private'.
+
+[ ] Deklariere die Eigenschaften 'Vorname', 'Nachname', 'Geburtstag' explizit als public.
 

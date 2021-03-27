@@ -44,7 +44,8 @@ Die folgenden Themen werden behandelt:
 ## :arrow_forward: S1D2 - Kontrollstrukturen und Funktionen
 Lead: @Blumi102 (Michelle Blumenstein)  
 Status: :construction:
-geplant: KW13
+geplant: KW13  
+[link](S1D2/README.md)
 
 Zusätzlich zu Variablen bestehen TypeScript-Programme aus Kontrollstrukturen, Ausdrücken und Funktionen. In diesem Dojo geben wir einen Einblick in diese Konstrukte.
 

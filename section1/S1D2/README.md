@@ -9,7 +9,7 @@ geplant: KW13
 
 Nachdem wir uns beim letzten Dojo damit befasst haben, wie in Type Script grundsätzlich Variablen deklariert werden und welche Datentypen sie annehmen können, wird es in diesem Dojo um die Verarbeitung von Variablen mittels Kontrollstrukturen und Funktionen gehen.
 
-Als Grundlage dafür ist es sinnvoll, die verschiedenen Operatoren zu kennen, die in Type Script genutzt werden können. Eine Übersicht über diese findet ihr hier: https://www.tutorialspoint.com/typescript/typescript_operators.htm
+Als Grundlage dafür ist es sinnvoll, die verschiedenen Operatoren zu kennen, die in Type Script genutzt werden können. Eine Übersicht über diese findest du hier: https://www.tutorialspoint.com/typescript/typescript_operators.htm
 
 ---
 
@@ -27,7 +27,7 @@ Als Grundlage dafür ist es sinnvoll, die verschiedenen Operatoren zu kennen, di
 
 - Deklariere zwei Variablen x und y vom Datentyp number.
 - Weise diesen die Werte x = 15 und y = 10 zu.
-- Erstellen einer if-Anweisung mit der folgenden Funktionalität: 
+- Erstelle eine if-Anweisung mit der folgenden Funktionalität: 
   - Wenn x > y gilt, wird der String 'x ist größer als y' in der Console ausgegeben.
 - Speichere dein Programm ab und führe es aus.
 - Was passiert, wenn du x = 5 setzt?

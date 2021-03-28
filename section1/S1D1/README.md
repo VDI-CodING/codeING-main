@@ -1,3 +1,4 @@
+[zurück](../README.md)
 # :arrow_forward: S1D1 - Datentypen und Variablen
 
 Lead: @Blumi102 (Michelle Blumenstein)  
@@ -19,6 +20,13 @@ Vor diesem Hintergrund wurde Type Script (TS) als eine Erweiterung von JS entwic
 - https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 
 ---
+
+## Hinweis
+
+Die folgenden Übungen können direkt in der Type Script-Datei ```app.ts``` implementiert werden, die wir im Zug der Einrichtung der Entwicklungsumgebung (siehe [S1D0](https://github.com/VDI-CodING/codeING-main/tree/prepare/section1/S1D0)) angelegt haben. Das Programm kann wie in S1D0 gezeigt über den Befehl ```npm run start-watch``` gestartet werden.
+
+---
+
 ## Übung 1 - Variablen deklarieren mit var, let, const
 
 ### a) Unterschied zwischen var, let und const

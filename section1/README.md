@@ -8,8 +8,9 @@ In diesem Abschitt geben wir eine Einführung in die Grundlagen der Programmieru
 
 ## :arrow_forward: S1D0 - Einrichten der IDE und erstes Programm
 Lead: @Zangarus (Marwin Madsen)  
-Status: :construction:
-geplant: KW11
+Status: :heavy_check_mark:
+geplant: KW11  
+[link](S1D0/README.md)  
 
 Dieses erste Dojo behandelt alle Grundlagen, sodass du mit dem Programmieren loslegen kannst. Wir zeigen dir die Software, die du brauchst, einrichtest. Zusätzlich geben wir hilfreiche Tips und Tricks für die Entwicklungsumgebung und wie die mit anderen in den Coding Dojos zusammenarbeitest.
 
@@ -23,8 +24,9 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D1 - Datentypen und Variablen
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :construction:
-geplant: KW12
+Status: :heavy_check_mark:
+geplant: KW12  
+[link](S1D1/README.md)
 
 In diesem Coding Dojo geben wir eine Einführung in Variablen und das Typsystem von TypeScript. 
 
@@ -41,8 +43,9 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D2 - Kontrollstrukturen und Funktionen
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :construction:
-geplant: KW13
+Status: :heavy_check_mark:
+geplant: KW13  
+[link](S1D2/README.md)
 
 Zusätzlich zu Variablen bestehen TypeScript-Programme aus Kontrollstrukturen, Ausdrücken und Funktionen. In diesem Dojo geben wir einen Einblick in diese Konstrukte.
 
@@ -53,7 +56,6 @@ Die folgenden Themen werden behandelt:
 - Einführung in for-Schleifen
 - Einführung in while-Schleifen
 - Einführung in Funktionen, ihre Deklaration und Ausdrücke
-- Benutzung von 'this'
 
 
 ## :arrow_forward: S1D3 - Klassen und Schnittstellen

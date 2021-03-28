@@ -1,3 +1,4 @@
+[zurück](../README.md)
 # Toolliste
 Wir werden die folgenden Tools installieren:
 * Visual Studio Code
@@ -82,3 +83,6 @@ sudo apt install git
 
 ### Linux (Fedora/openSUSE)
 Folge den Anweisungen hier: https://git-scm.com/download/linux
+
+## Alle Tools neustarten
+Schließe alle Tools und starte sie neu, damit die Path-Umgebungsvariable neu eingelesen wird und die Tool sich finden.

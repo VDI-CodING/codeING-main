@@ -15,9 +15,9 @@ Als Grundlage dafür ist es sinnvoll, die verschiedenen Operatoren zu kennen, di
 
 ## Weitere Hilfreiche Links
 
-https://www.tutorialspoint.com/typescript/typescript_decision_making.htm
-https://www.tutorialspoint.com/typescript/typescript_loops.htm
-https://www.tutorialspoint.com/typescript/typescript_functions.htm
+- https://www.tutorialspoint.com/typescript/typescript_decision_making.htm
+- https://www.tutorialspoint.com/typescript/typescript_loops.htm
+- https://www.tutorialspoint.com/typescript/typescript_functions.htm
 
 ---
 
@@ -125,12 +125,7 @@ while(k<=10) {
 - Die erstellte Funktion soll nun einen dritten Summanden z erhalten.
 - Ändere die Funktion aus Aufgabe a dahingehend ab, dass ihr ein dritter Summand z als optionalen Parameter übergeben werden kann, der wenn vorhanden mit x und y addiert wird.
 
-### c) Überladene Funktionen
-
-- Wie in Aufgabe b soll die Möglichkeit bestehen, die Summanden x und y zu addieren und wenn vorhanden soll z als dritter Summand hinzuaddiert werden.
-- Diese Funktionalität soll nun allerdings nicht mehr mittels optionaler Parameter gelöst werden, sondern mit zwei überladener Funktionen. 
-
-### d) Rest Parameters
+### c) Rest Parameters
 
 - Schreibe eine Funktion, die beliebig viele Variablen vom Datentyp number aufnehmen kann, diese addiert und das Ergebnis als Rückgabewert zurückgibt.
 - Rufe diese Funktion mit beliebig vielen Variablen auf und gib ihren Rückgabewert in der Console aus.

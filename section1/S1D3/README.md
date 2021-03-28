@@ -6,15 +6,17 @@ geplant: KW14
 ---
 ### Einleitung:
 
-Wie ihr inzwischen wissen müsstet, ist TypeScript (TS) ein Super-Set von JavaScript.
-JavaScript (JS) ist für sich eine sogenannte Script-Sprache die ursprünglich für dynamisches HTML in Web-Browsern entwickelt wurde.
-Der standardisierte Sprachkern von JavaScript stellt eine dynamisch typisierte, objektorientierte, ABER klassenlose Skriptsprache dar.
-Dieser klassenlose Sprachansatz wird mit Blick auf die Entwicklung größerer Anwendungen als einer der größten Nachteile gesehen.
-Mit diesem Hintergrund hat Microsoft die Entwicklung von TypeScript veranlasst, die diese Nachteile beseitigen.
-
 In den letzten beiden Wochen habt ihr euch mit Typen und Variablen sowie Kontrollstrukturen und Funktionen beschäftigt.
 Diese Woche gibt es den Einstieg in die grundlegenden objekt-orientierten Sprachkonstrukte – Klassen und Schnittstellen.
 
+
+**Hinweis**  
+Bei der Erstellung des Dojos S1D3 ist aufgefallen, dass die Bearbeitung die geplante Wochen-Bearbeitungszeit überschritten werden kann. Aus diesem Grund wird das Dojo in ein Teil A und ein Teil B aufgetrennt. Teil A legt den Schwerpunkt auf die Erstellung und Arbeit mit Klassen. Teil B legt den Schwerpunkt auf die Nutzung von Schnittstellen im Zusammenhang mit Klassen.
+
+
+---
+
+## TEIL A - Schwerpunkt Klassen
 
 ---
 
@@ -65,8 +67,8 @@ Lege hierzu einen Constructor an und setze die Eigenschaft des Geburtstags inner
 [Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
 [Literatur - This-Type Notation](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-types)  
 
-- [ ] Erstelle einen Konstruktor mit den Parametern 'Vorname' und 'Nachname'
-- [ ] Weise die Konstruktor-Parameter 'Vorname' und 'Nachname' den entsprechenden Eigenschaften der Klasse zu. (Beachte die Notation im Konstruktor-Beispiel im angegebenen Link)
+- [ ] Erstelle einen Konstruktor mit den Parametern 'Geschlecht', 'Vorname' und 'Nachname'
+- [ ] Weise die Konstruktor-Parameter den entsprechenden Eigenschaften der Klasse zu. (Beachte die Notation im Konstruktor-Beispiel im angegebenen Link)
 
 
 
@@ -87,7 +89,7 @@ Da der Geburtstag nicht, bzw. noch nicht (Zeitreisen und so) geändert werden ka
 ### 5) Auch Object haben eine Privatsspähre - Private Visibility
 
 Im nächsten Punkt widmen wir uns dem Thema Privatsphäre. Nicht erst seit Einführung der DSGVO ist das Thema Privatsphäre und Informationssicherheit in Deutschland und Europa großgeschrieben.
-Jeder Mensch hat somit Eigenschaften, die nicht alle etwas angehen. Mit Vorname, Nachname und Geburtstag haben wir jedoch durchaus Informationen bei denen wir es mit der Informationssicherheit nicht so eng sehen. Aus diesem Grund führen wir eine neue Information ein - die Blutgruppe. Blutgruppen werden in folgende 8 Typen unterschieden: '0minus', '0plus', 'Bminus', 'Bplus', 'Aminus', 'Aplus', 'ABminus' und 'ABplus'. Hierzu legt ihr einen Enumerations-Datentypen an, der die entsprechenden 8 Ausprägungen besitzt. Nach der Definition des Enums ist eine neue Eigenschaft zu erstellen, die nicht öffentlich zugänglich ist (private). Die Blutgruppe ist im Konstruktor zu ergänzen.
+Jeder Mensch hat somit Eigenschaften, die nicht alle etwas angehen. Mit Vorname, Nachname und Geburtstag haben wir jedoch durchaus Informationen bei denen wir es mit der Informationssicherheit nicht so eng sehen. Aus diesem Grund führen wir eine neue Information ein - die Blutgruppe. Blutgruppen werden in folgende 8 Typen unterschieden: 'NullMinus', 'NullPlus', 'Bminus', 'Bplus', 'Aminus', 'Aplus', 'ABminus' und 'ABplus'. Hierzu legt ihr einen Enumerations-Datentypen an, der die entsprechenden 8 Ausprägungen besitzt. Nach der Definition des Enums ist eine neue Eigenschaft zu erstellen, die nicht öffentlich zugänglich ist (private). Die Blutgruppe ist im Konstruktor zu ergänzen. Eine Blutgruppe ändert sich über die Lebensdauer eines Menschen nicht, daher ist diese als Readonly zu definieren.
 
 [Literatur - Enumeration](https://www.typescriptlang.org/docs/handbook/enums.html)  
 [Literatur - Blutgruppen](https://de.wikipedia.org/wiki/Blutgruppe)  
@@ -95,7 +97,7 @@ Jeder Mensch hat somit Eigenschaften, die nicht alle etwas angehen. Mit Vorname,
 
 - [ ] Erstelle eine Enumeration 'enumBlutGruppe' mit den genannten 8 Einträgen
 - [ ] Erstelle eine neue Eigenschaft namens 'Blutgruppe' mit dem Datentyp 'enumBlutGruppe'
-- [ ] Deklariere die neue Eigenschaft 'Blutgruppe' als private Information
+- [ ] Deklariere die neue Eigenschaft 'Blutgruppe' als private and readonly Information
 
 
 ---
@@ -119,9 +121,9 @@ Ein Mensch hat von Geburt an einige Basisfähigkeiten wie Atmen, Schlucken, der 
 [Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
 [Literatur - If-Abfragen](https://www.tutorialsteacher.com/typescript/typescript-if-else) 
 
-- [ ] Implementiere eine Methode 'Schreien', die der Mensch von Geburt an kann.
-- [ ] Implementiere eine Methode 'Weinen', die der Mensch von Geburt an kann.
-- [ ] Implementiere eine Methode 'Sprechen' mit einem String-Parameter 'Satz', die bis zum 3. Lebensjahr wird 'blabla' (If-Abfrage).
+- [ ] Implementiere eine public Methode 'Schreien' ohne Rückgabewert, die der Mensch von Geburt an kann.
+- [ ] Implementiere eine public Methode 'Weinen' ohne Rückgabewert, die der Mensch von Geburt an kann.
+- [ ] Implementiere eine public Methode 'Sprechen' mit einem String-Parameter 'Satz' ohne Rückgabewert, die bis zum 3. Lebensjahr wird 'blabla' (If-Abfrage).
 
 
 ---
@@ -133,9 +135,12 @@ Wenn sich zwei Menschen begegnen begrüßen sie sich meistens zu Beginn. Wenn ma
 [Literatur - If-Abfragen](https://www.tutorialsteacher.com/typescript/typescript-if-else)  
 [Literatur - Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html)
 
-- [ ] Implementiere eine Methode 'InformellBegrüßen' mit einem Mensch-Parameter 'Freund', der die Methode 'Sprechen' mit einer freundschaftlichen Begrüßung eurer Wahl und dem Vornamen des Freundes aufruft. Nutze hierbei sogenannte "Template Literal Types"
-- [ ] Implementiere eine Methode 'formellBegrüßen' mit einem Mensch-Parameter 'Person', der die Methode 'Sprechen' mit einer formellen Anrede "Hallo Herr / Frau ..." und dem Nachnamen aufruft. Auch hier sind "Template Literal Types" sowie der "Ternary operator" bei If-Abfragen zu nutzen. Die Auswahl von Herr oder Frau in der Anrede soll durch Prüfung des Geschlechts entschieden werden.
+- [ ] Implementiere eine public Methode 'InformellBegrueßen' mit einem Mensch-Parameter 'Freund' ohne Rückgabewert, der die Methode 'Sprechen' mit einer freundschaftlichen Begrüßung eurer Wahl und dem Vornamen des Freundes aufruft. Nutze hierbei sogenannte "Template Literal Types"
+- [ ] Implementiere eine public Methode 'formellBegrueßen' mit einem Mensch-Parameter 'Person' ohne Rückgabewert, der die Methode 'Sprechen' mit einer formellen Anrede "Hallo Herr / Frau ..." und dem Nachnamen aufruft. Auch hier sind "Template Literal Types" sowie der "Ternary operator" bei If-Abfragen zu nutzen. Die Auswahl von Herr oder Frau in der Anrede soll durch Prüfung des Geschlechts entschieden werden.
 
+
+---
+## TEIL B - Schwerpunkt Schnittstellen
 
 ---
 ### 8) Wir brauchen eine Art Zeitmaschine - Methoden 3
@@ -145,8 +150,14 @@ Stand jetzt wird jeder Mensch beim Aufruf des Constructors mit dem Datum und der
 [Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
 [Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
 
-- [ ] Implementiere eine Methode 'TimeWarp' mit einem DateTime-Parameter dessen Zeitwert von dem Geburtstag abgezogen wird. Somit wird der Geburtstermin um die entsprechende Dauer in die Vergangenheit verlegt. 
+- [ ] Implementiere eine public Methode 'TimeWarp' mit einem DateTime-Parameter dessen Zeitwert von dem Geburtstag abgezogen wird. Somit wird der Geburtstermin um die entsprechende Dauer in die Vergangenheit verlegt. Die Methode hat kein Rückgabewert.
 
+**Hinweis - Fehlermeldung Readonly**  
+Für diese Funktion ist die readonly Deklaration beim Geburtstag zu entfernen, da durch die Methode TimeWarp das Geburtsdatum in die Vergangenheit gelegt wird. Hierzu können "getter/setter" genutzt werden. Überlege dir selbst, wie du die Readonly-Funktion mit Getter/Setter umsetzen kannst ohne das Readonly-Verhalten zu verlieren.  
+
+[Literatur - Getter/Setter](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
+
+- [ ] Implementiere die ReadOnly-Eigenschaft des Geburtstags als private Member mit Getter/Setter 
 ---
 
 ### 9) Wir machen uns die Welt ein wenig einfacher - Static Methods
@@ -163,7 +174,12 @@ Hierzu gibt es Factory Software Pattern, die erst im weiteren Verlauf der Übung
 - [] Implementiere eine statische Methode 'createTeenager', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 16 Jahre abgezogen werden. Somit wird ein Mensch mit 16 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
 - [] Implementiere eine statische Methode 'createAdult', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 35 Jahre abgezogen werden. Somit wird ein Mensch mit 35 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
 
+**Hinweis**  
+Nutze in den statischen Methoden die Objekt-Deklaration
 
+```ts
+const mensch: Mensch = new Mensch(...)
+```
 
 ---
 
@@ -177,13 +193,39 @@ Hierzu helfen statische Eigenschaften die bei der Erzeugung eines Menschen um ei
 - [ ] Implementiere eine statische Eigenschaft mit dem Namen 'Population', die durch jeden Aufruf eines 'Mensch'-Constructors um die Zahl 1 erhöht wird.  
 
 
+### 11) Schnittstellen ('interface') sind quasi Verträge zwischen einem Objekt-Typ und dessen Implementierung
+
+Schnittstellen bilden eine Konvention über die Bestandteile einer Klasse. Mit Blick auf unsere Klasse 'Mensch' gibt es nun zwei Arten von Methoden. Um es plakativ zu sagen, nicht jedem anderen Menschen soll es möglich sein die Methode 'TimeWarp' zu benutzen. Aus diesem Grund werden nun zwei Interfaces angelegt. 
+
+[Literatur - Interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html#property-modifiers)
+
+- [ ] Lege eine Schnittstelle namens 'IMensch' an und füge ihr folgende Methoden und Eigenschaften hinzu
+    - Eigenschaft 'Geschlecht'
+    - Eigenschaft 'Vorname'
+    - Eigenschaft 'Nachname'
+    - Eigenschaft 'Geburtstag'
+    - Methode 'Schreien'
+    - Methode 'Weinen'
+    - Methode 'Sprechen'
+    - Methode 'informelBegrüßen'
+    - Methode 'formelBerüßen'
+
+- [ ] Lege eine Schnittstelle namens 'IEinstein' an und füge ihr folgende Methoden und Eigenschaften hinzu
+    - Methode 'TimeWarp'
+
+- [ ] Füge der Klasse 'Mensch' die beiden Schnittstellen hinzu.
+
+- [ ] Ändere die Typ-Deklaration des Übergabeparameter von den beiden Methoden 'formellBegrueßen' und 'informellBegrueßen' zu 'IMensch'
+
+- [ ] Nutze die neuen Interfaces auch in den Factory Methoden aus Aufgabe 9
+    - Ändere den Rückgabeparameter aller statischen Methoden zu 'IMensch'
+    - Ändere die Objekt-Deklaration ebenfalls zu den Interfaces, prüfe hierzu Schnittstelle 'IMensch' falls dies nicht geht, teste 'IEinstein'. 
 
 
+**Hinweis**  
+Für den letzten Schritt hilft euch der 'as' mapping operator.  
+Weitere Infos findet ihr hier [Link](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
 
 ---
-
-### Test-Programm
-
-Mit diesem Programm-Ausschnitt kann das Projekt getestet werden. 
 
 

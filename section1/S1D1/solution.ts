@@ -1,5 +1,6 @@
 /// Hinweis:
 // Dieser Code sollte nach der Durchführung von S1D1 in der app.ts stehen.
+// Das Video zum Dojos ist auf der Video-Plattform unter https://1drv.ms/u/s!Apib2MdOJ2WvtowzTb6CDyAlCSZ8xw?e=m7mWw9 zu finden.
 
 /*
 

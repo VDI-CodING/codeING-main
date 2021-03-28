@@ -43,7 +43,7 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D2 - Kontrollstrukturen und Funktionen
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :construction:
+Status: :heavy_check_mark:
 geplant: KW13  
 [link](S1D2/README.md)
 
@@ -56,7 +56,6 @@ Die folgenden Themen werden behandelt:
 - Einführung in for-Schleifen
 - Einführung in while-Schleifen
 - Einführung in Funktionen, ihre Deklaration und Ausdrücke
-- Benutzung von 'this'
 
 
 ## :arrow_forward: S1D3 - Klassen und Schnittstellen

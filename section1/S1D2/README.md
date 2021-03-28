@@ -1,7 +1,7 @@
 # :arrow_forward: S1D2 - Kontrollstrukturen und Funktionen
 
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :construction:
+Status: :heavy_check_mark:
 geplant: KW13
 
 ---

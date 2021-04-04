@@ -8,7 +8,7 @@ In diesem Abschitt geben wir eine Einführung in die Grundlagen der Programmieru
 
 ## :arrow_forward: S1D0 - Einrichten der IDE und erstes Programm
 Lead: @Zangarus (Marwin Madsen)  
-Status: :heavy_check_mark:
+Status: :heavy_check_mark:  
 geplant: KW11  
 [link](S1D0/README.md)  
 
@@ -24,7 +24,7 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D1 - Datentypen und Variablen
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :heavy_check_mark:
+Status: :heavy_check_mark:  
 geplant: KW12  
 [link](S1D1/README.md)
 
@@ -43,7 +43,7 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D2 - Kontrollstrukturen und Funktionen
 Lead: @Blumi102 (Michelle Blumenstein)  
-Status: :heavy_check_mark:
+Status: :heavy_check_mark:  
 geplant: KW13  
 [link](S1D2/README.md)
 
@@ -60,8 +60,9 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D3 - Klassen und Schnittstellen
 Lead: @stan1025 (Andreas Stutz)  
-Status: :construction:
-geplant: KW14
+Status: :heavy_check_mark:  
+geplant: KW14 (Teil A)
+geplant: KW15 (Teil B)
 
 Nach der Einführung in sowohl Datentypen und Variablen als auch Kontrollstrukturen und Funktionen is es an der Zeit etwas über Klassen und Schnittstellen zu lernen.
 
@@ -76,7 +77,7 @@ Die folgenden Themen werden behandelt:
 ## :arrow_forward: S1D4 - Vererbung und Typprüfung
 Lead: @stan1025 (Andreas Stutz)  
 Status: :construction:
-geplant: KW15
+geplant: KW16
 
 Zusätzlich zu Klassen und Schnittstellen sind Vererbung und Typprüfung Basiskonstrukte der objektorientierten Programmierung.In diesem Dojo werden die Grundlagen von Vererbung und Typprüfung gezeigt.
 

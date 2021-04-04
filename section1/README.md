@@ -61,7 +61,7 @@ Die folgenden Themen werden behandelt:
 ## :arrow_forward: S1D3 - Klassen und Schnittstellen
 Lead: @stan1025 (Andreas Stutz)  
 Status: :heavy_check_mark:  
-geplant: KW14 (Teil A)
+geplant: KW14 (Teil A)  
 geplant: KW15 (Teil B)
 
 Nach der Einführung in sowohl Datentypen und Variablen als auch Kontrollstrukturen und Funktionen is es an der Zeit etwas über Klassen und Schnittstellen zu lernen.

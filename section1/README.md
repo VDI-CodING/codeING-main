@@ -62,7 +62,8 @@ Die folgenden Themen werden behandelt:
 Lead: @stan1025 (Andreas Stutz)  
 Status: :heavy_check_mark:  
 geplant: KW14 (Teil A)  
-geplant: KW15 (Teil B)
+geplant: KW15 (Teil B)  
+[Link zur Aufgabe](S1D3/README.md)
 
 Nach der Einführung in sowohl Datentypen und Variablen als auch Kontrollstrukturen und Funktionen is es an der Zeit etwas über Klassen und Schnittstellen zu lernen.
 

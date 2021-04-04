@@ -148,3 +148,19 @@ Im Laufe der Woche wird hier ein Testprogramm veröffentlicht.
 Beobachtet bitte das Forum, wann das Testprogramm veröffentlicht wurde.
 Das Testprogramm wird in der Datei s1d3_test.ts drin stehen. 
 Die Ergänzungen auf diese Datei und den Aufruf der Testklasse S1D3Test bitte unangetastet lassen.
+
+Füge diesen Import in der 'app.ts' Datei am Anfang der Datei ein.
+(bei den anderem Imports)
+```ts
+import { S1D3Test } from "./section1/S1D3/s1d3_test";
+```
+
+Füge diesen Aufruf am Ende der Datei 'app.ts' ein. 
+```ts
+S1D3Test.execute();
+```
+
+Dieser Aufruf führt dazu, dass die Execute-Methode des S1D3-Testklasse ausgeführt wird.
+
+
+Der Hintergrund, wieso das Testprogramm noch nicht veröffentlicht wird liegt darin, dass die Vorbereitung zu diesem Test die Klasse voraussetzt, die ihr anlegen sollt. Ansonsten gibt es beim Übersetzen Fehlermeldungen, die euch bei der Bearbeitung stören. 

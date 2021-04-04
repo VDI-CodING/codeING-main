@@ -2,7 +2,7 @@
 
 ## :arrow_forward: S1D3 - Klassen und Schnittstellen
 Lead: @stan1025 (Andreas Stutz)  
-Status: :heavy_check_mark:
+Status: :heavy_check_mark:  
 geplant: KW14
 
 ---

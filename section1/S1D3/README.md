@@ -178,3 +178,99 @@ S1D3Test.execute();
 ```
 
 Dieser Aufruf führt dazu, dass die Execute-Methode des S1D3-Testklasse ausgeführt wird. Das Test-Programm ist in der Datei `s1d3_test.ts` im Ordner `section1/S1D3`- bitte an dieser Datei nichts ändern.
+
+**Hinweis**  
+Im Normallfall liegt der gesamte Source Code einer Anwendung im Ordner `src`. Da wir allerdings für die Aufgabe in eurem `src` Ordner nichts eintragen möchten. Liegen die Source Files für die Aufgaben in den Ordnern der einzelnen Sections. Dies ist lediglich aus organisatorischen Gründen so einfacher.
+
+
+
+
+
+---
+## TEIL B - Schwerpunkt Schnittstellen
+
+---
+### 9) Wir brauchen eine Art Zeitmaschine - Methoden 3
+
+Stand jetzt wird jeder Mensch beim Aufruf des Constructors mit dem Datum und der Uhrzeit des Aufrufs "geboren". Leider ist dies für den weiteren Verlauf der Übung nicht sinnvoll. Aus diesem Grund benötigen wir eine Art Zeitmaschine, damit wir einen Menschen künstlich altern können.
+
+[Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
+[Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
+
+- [ ] Implementiere eine public Methode 'TimeWarp' mit einem DateTime-Parameter dessen Zeitwert von dem Geburtstag abgezogen wird. Somit wird der Geburtstermin um die entsprechende Dauer in die Vergangenheit verlegt. Die Methode hat kein Rückgabewert.
+
+**Hinweis - Fehlermeldung Readonly**  
+Für diese Funktion ist die readonly Deklaration beim Geburtstag zu entfernen, da durch die Methode TimeWarp das Geburtsdatum in die Vergangenheit gelegt wird. Hierzu können "getter/setter" genutzt werden. Überlege dir selbst, wie du die Readonly-Funktion mit Getter/Setter umsetzen kannst ohne das Readonly-Verhalten zu verlieren.  
+
+[Literatur - Getter/Setter](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
+
+- [ ] Implementiere die ReadOnly-Eigenschaft des Geburtstags als private Member mit Getter/Setter 
+---
+
+### 10) Wir machen uns die Welt ein wenig einfacher - Static Methods
+
+Für die weiteren Übungen ist es hilfreich, wenn wir Menschen im Alter eines Erwachsenen oder eines Kindes kreieren können.
+Hierzu gibt es Factory Software Pattern, die erst im weiteren Verlauf der Übungen kommen. Bis dahin nutzen wir die Möglichkeit von Static Methods.
+
+[Literatur - Static Methods](https://www.typescripttutorial.net/typescript-tutorial/typescript-static-methods-and-properties/)  
+[Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
+
+
+- [] Implementiere eine statische Methode 'createBaby', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 2,5 Jahre abgezogen werden. Somit wird ein Mensch mit 2,5 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
+- [] Implementiere eine statische Methode 'createChild', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 8 Jahre abgezogen werden. Somit wird ein Mensch mit 8 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
+- [] Implementiere eine statische Methode 'createTeenager', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 16 Jahre abgezogen werden. Somit wird ein Mensch mit 16 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
+- [] Implementiere eine statische Methode 'createAdult', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 35 Jahre abgezogen werden. Somit wird ein Mensch mit 35 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
+
+**Hinweis**  
+Nutze in den statischen Methoden die Objekt-Deklaration
+
+```ts
+const mensch: Mensch = new Mensch(...)
+```
+
+---
+
+### 11) Wir sind Ingenieure und uns interessieren Zahlen, Fakten und Statistiken - Static Property
+
+Um die Population der Spezies Mensch in der Software abzubilden, sind alle Menschen die "geboren" werden zu zählen.
+Hierzu helfen statische Eigenschaften die bei der Erzeugung eines Menschen um eins inkrementiert werden.
+
+[Literatur - Static Properties](https://www.typescripttutorial.net/typescript-tutorial/typescript-static-methods-and-properties/)  
+
+- [ ] Implementiere eine statische Eigenschaft mit dem Namen 'Population', die durch jeden Aufruf eines 'Mensch'-Constructors um die Zahl 1 erhöht wird.  
+
+
+### 12) Schnittstellen ('interface') sind quasi Verträge zwischen einem Objekt-Typ und dessen Implementierung
+
+Schnittstellen bilden eine Konvention über die Bestandteile einer Klasse. Mit Blick auf unsere Klasse 'Mensch' gibt es nun zwei Arten von Methoden. Um es plakativ zu sagen, nicht jedem anderen Menschen soll es möglich sein die Methode 'TimeWarp' zu benutzen. Aus diesem Grund werden nun zwei Interfaces angelegt. 
+
+[Literatur - Interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html#property-modifiers)
+
+- [ ] Lege eine Schnittstelle namens 'IMensch' an und füge ihr folgende Methoden und Eigenschaften hinzu
+    - Eigenschaft 'Geschlecht'
+    - Eigenschaft 'Vorname'
+    - Eigenschaft 'Nachname'
+    - Eigenschaft 'Geburtstag'
+    - Methode 'Schreien'
+    - Methode 'Weinen'
+    - Methode 'Sprechen'
+    - Methode 'informelBegrüßen'
+    - Methode 'formelBerüßen'
+
+- [ ] Lege eine Schnittstelle namens 'IEinstein' an und füge ihr folgende Methoden und Eigenschaften hinzu
+    - Methode 'TimeWarp'
+
+- [ ] Füge der Klasse 'Mensch' die beiden Schnittstellen hinzu.
+
+- [ ] Ändere die Typ-Deklaration des Übergabeparameter von den beiden Methoden 'formellBegrueßen' und 'informellBegrueßen' zu 'IMensch'
+
+- [ ] Nutze die neuen Interfaces auch in den Factory Methoden aus Aufgabe 9
+    - Ändere den Rückgabeparameter aller statischen Methoden zu 'IMensch'
+    - Ändere die Objekt-Deklaration ebenfalls zu den Interfaces, prüfe hierzu Schnittstelle 'IMensch' falls dies nicht geht, teste 'IEinstein'. 
+
+
+**Hinweis**  
+Für den letzten Schritt hilft euch der 'as' mapping operator.  
+Weitere Infos findet ihr hier [Link](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
+
+---

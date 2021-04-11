@@ -199,12 +199,13 @@ Stand jetzt wird jeder Mensch beim Aufruf des Constructors mit dem Datum und der
 
 - [ ] Implementiere eine public Methode 'TimeWarp' mit einem number-Parameter dessen Zeitwert den Jahren entspricht die von dem Geburtstag abgezogen wird. Somit wird der Geburtstermin um die entsprechenden Jahre in die Vergangenheit verlegt. Die Methode hat kein Rückgabewert.
 
-**Hinweis - Fehlermeldung Readonly**  
-Für diese Funktion ist die readonly Deklaration beim Geburtstag zu entfernen, da durch die Methode TimeWarp das Geburtsdatum in die Vergangenheit gelegt wird. Hierzu können "getter/setter" genutzt werden. Überlege dir selbst, wie du die Readonly-Funktion mit Getter/Setter umsetzen kannst ohne das Readonly-Verhalten zu verlieren.  
+**Hinweis - Security Issue**  
+Die Lösung zeigt uns, dass jeder der Zugriff auf das Date-Objekt hat über die Setter-Methoden der Date Datentyps, den Geburtstag verändern kann. 
+Aus diesem Grund gilt es dies zu verhindern, in dem niemals der geschützte Zugriff auf das Date-Objekt 'Geburtstag' gegeben wird. Hierzu bedienen wir uns dem Prinzip der Getter/Setter auf private Variablen. 
 
 [Literatur - Getter/Setter](https://www.typescriptlang.org/docs/handbook/2/classes.html#getters--setters)
 
-- [ ] Implementiere die ReadOnly-Eigenschaft des Geburtstags als private Member mit Getter/Setter 
+- [ ] Implementiere die ReadOnly-Eigenschaft des Geburtstags als private Member mit Getter beachte hierbei nicht das original Date-Objekt zurückzugeben.
 ---
 
 ### 10) Wir machen uns die Welt ein wenig einfacher - Static Methods

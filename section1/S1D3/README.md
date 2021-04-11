@@ -3,7 +3,8 @@
 ## :arrow_forward: S1D3 - Klassen und Schnittstellen
 Lead: @stan1025 (Andreas Stutz)  
 Status: :heavy_check_mark:  
-geplant: KW14
+geplant: KW14  
+geändert: 11.04.2021  
 
 ---
 ### Einleitung:
@@ -40,14 +41,14 @@ Ein Mensch besitzt unterschiedliche Eigenschaften. In unserem Beispiel beginnen 
 Unser Mensch besitzt ein Geschlecht, einen Vornamen, einen Nachnamen, ein Geburtsdatum.   
 Lege im folgenden diese drei genannten Eigenschaften in der Klasse 'Mensch' an. 
 
-[Literatur - Eigenschaften](https://www.typescriptlang.org/docs/handbook/2/classes.html#fields)
+[Literatur - Eigenschaften](https://www.typescriptlang.org/docs/handbook/2/classes.html#fields)  
 [Literatur - Enumeration](https://www.typescriptlang.org/docs/handbook/enums.html)
 
-- [ ] Erstelle eine Enumeration 'enumGeschlecht' mit den Ausprägungen 'mann' oder 'frau' (*1)
+- [ ] Erstelle eine Enumeration 'enumGeschlecht' mit den Ausprägungen 'undefined', 'mann', 'frau', 'divers'(*1)
 - [ ] Erstelle eine Eigenschaft 'Geschlecht' als 'enumGeschlecht' in der Klasse 'Mensch'  
 - [ ] Erstelle eine Eigenschaft 'Vorname' als 'string' in der Klasse 'Mensch'  
 - [ ] Erstelle eine Eigenschaft 'Nachname' als 'string' in der Klasse 'Mensch'  
-- [ ] Erstelle eine Eigenschaft 'Geburstag' als 'DateTime' in der Klasse 'Mensch'  
+- [ ] Erstelle eine Eigenschaft 'Geburstag' als 'Date' in der Klasse 'Mensch'  
 
 
 **Hinweis**  
@@ -115,7 +116,7 @@ In anderen Sprachen, z.B. C# oder Java, ist die Standard-Sichtbarkeit 'private'.
 
 
 ---
-### 6) Ein Mensch wird mit einigen Fähigkeiten geboren, andere erlernt er erst im Laufe seines Lebens - Methoden 1
+### 7) Ein Mensch wird mit einigen Fähigkeiten geboren, andere erlernt er erst im Laufe seines Lebens - Methoden 1
 
 Ein Mensch hat von Geburt an einige Basisfähigkeiten wie Atmen, Schlucken, der Herzschlag und viele weitere. Diese Basisfähigkeiten werden wir im Laufe dieser Arbeit nicht näher betrachten. Dafür verleihen wir unserem Menschen durchaus nun einige Fähigkeiten in Form von Methoden. Die Methode, die letztlich die Fähigkeit repräsentiert, soll letztlich einen Text ausgeben auf der Konsole der den Namen und Vornamen und die entsprechende Fähigkeit als verb ausgeben.
 
@@ -129,7 +130,7 @@ Ein Mensch hat von Geburt an einige Basisfähigkeiten wie Atmen, Schlucken, der 
 
 
 ---
-### 7) Menschen können auch miteinander Reden - Methoden 2
+### 8) Menschen können auch miteinander Reden - Methoden 2
 
 Wenn sich zwei Menschen begegnen begrüßen sie sich meistens zu Beginn. Wenn man mit einer Person befreundet ist, begrüßt man eher informell z.B. mit einem "Hey ...", wenn man nicht befreundet ist, nutzt man meist eine formellere Begrüßungsform z.B. mit einem "Hallo Herr / Frau ...".
 
@@ -144,23 +145,36 @@ Wenn sich zwei Menschen begegnen begrüßen sie sich meistens zu Beginn. Wenn ma
 
 ## Test-Programm
 
-Im Laufe der Woche wird hier ein Testprogramm veröffentlicht. 
-Beobachtet bitte das Forum, wann das Testprogramm veröffentlicht wurde.
-Das Testprogramm wird in der Datei s1d3_test.ts drin stehen. 
-Die Ergänzungen auf diese Datei und den Aufruf der Testklasse S1D3Test bitte unangetastet lassen.
+Das Test-Programm ist Online.
+Für die ein oder andere Teilaufgabe ist hier ein Test implementiert, der eure Implementierung prüft. Es sind keine echten UnitTests, aber für unsere Bedürfnisse reichts erstmal. 
 
-Füge diesen Import in der 'app.ts' Datei am Anfang der Datei ein.
-(bei den anderem Imports)
-```ts
-import { S1D3Test } from "./section1/S1D3/s1d3_test";
+Damit das Test-Programm und euer Code korrekt in der Umgebung arbeiten kann, sind einige Ergänzungen in eurem Code zu machen. Diese sind im Folgenden aufgelistet.
+
+- [ ] Ergänzen der Nodemon Configuration, damit auch die neuen Code-Bereiche in Section 1 nun überwacht werden. Ergänze in der Datei `nodemon.json` unter Watch den Ordner `section1`
+
+ ```json
+    "watch": [
+       "src",
+       "section1"
+       ],
 ```
 
-Füge diesen Aufruf am Ende der Datei 'app.ts' ein. 
+- [ ] Installiere eine neues Paket `colors` mit dem folgenden Befehl im Terminal:
+
+```bash
+npm install colors
+```
+
+- [ ] Ergänze in der Datei `app.ts` den Import des Test-Programms:
+
+```ts
+import { S1D3Test } from "./../section1/S1D3/s1d3_test";
+```
+
+- [ ] Ergänze in der Datei `app.ts` den folgenden Aufruf des Test-Programms:
+
 ```ts
 S1D3Test.execute();
 ```
 
-Dieser Aufruf führt dazu, dass die Execute-Methode des S1D3-Testklasse ausgeführt wird.
-
-
-Der Hintergrund, wieso das Testprogramm noch nicht veröffentlicht wird liegt darin, dass die Vorbereitung zu diesem Test die Klasse voraussetzt, die ihr anlegen sollt. Ansonsten gibt es beim Übersetzen Fehlermeldungen, die euch bei der Bearbeitung stören. 
+Dieser Aufruf führt dazu, dass die Execute-Methode des S1D3-Testklasse ausgeführt wird. Das Test-Programm ist in der Datei `s1d3_test.ts` im Ordner `section1/S1D3`- bitte an dieser Datei nichts ändern.

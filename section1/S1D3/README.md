@@ -178,3 +178,6 @@ S1D3Test.execute();
 ```
 
 Dieser Aufruf führt dazu, dass die Execute-Methode des S1D3-Testklasse ausgeführt wird. Das Test-Programm ist in der Datei `s1d3_test.ts` im Ordner `section1/S1D3`- bitte an dieser Datei nichts ändern.
+
+**Hinweis**  
+Im Normallfall liegt der gesamte Source Code einer Anwendung im Ordner `src`. Da wir allerdings für die Aufgabe in eurem `src` Ordner nichts eintragen möchten. Liegen die Source Files für die Aufgaben in den Ordnern der einzelnen Sections. Dies ist lediglich aus organisatorischen Gründen so einfacher.

@@ -118,7 +118,7 @@ In anderen Sprachen, z.B. C# oder Java, ist die Standard-Sichtbarkeit 'private'.
 ---
 ### 7) Ein Mensch wird mit einigen Fähigkeiten geboren, andere erlernt er erst im Laufe seines Lebens - Methoden 1
 
-Ein Mensch hat von Geburt an einige Basisfähigkeiten wie Atmen, Schlucken, der Herzschlag und viele weitere. Diese Basisfähigkeiten werden wir im Laufe dieser Arbeit nicht näher betrachten. Dafür verleihen wir unserem Menschen durchaus nun einige Fähigkeiten in Form von Methoden. Die Methode, die letztlich die Fähigkeit repräsentiert, soll letztlich einen Text ausgeben auf der Konsole der den Namen und Vornamen und die entsprechende Fähigkeit als verb ausgeben.
+Ein Mensch hat von Geburt an einige Basisfähigkeiten wie Atmen, Schlucken, der Herzschlag und viele weitere. Diese Basisfähigkeiten werden wir im Laufe dieser Arbeit nicht näher betrachten. Dafür verleihen wir unserem Menschen durchaus nun einige Fähigkeiten in Form von Methoden. Die Methode, die letztlich die Fähigkeit repräsentiert, soll letztlich einen Text ausgeben auf der Konsole der den Namen und Vornamen und die entsprechende Fähigkeit als verb oder den Satz sprechen ausgeben.
 
 [Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
 [Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
@@ -126,7 +126,7 @@ Ein Mensch hat von Geburt an einige Basisfähigkeiten wie Atmen, Schlucken, der 
 
 - [ ] Implementiere eine public Methode 'Schreien' ohne Rückgabewert, die der Mensch von Geburt an kann.
 - [ ] Implementiere eine public Methode 'Weinen' ohne Rückgabewert, die der Mensch von Geburt an kann.
-- [ ] Implementiere eine public Methode 'Sprechen' mit einem String-Parameter 'Satz' ohne Rückgabewert, die bis zum 3. Lebensjahr wird 'blabla' (If-Abfrage).
+- [ ] Implementiere eine public Methode 'Sprechen' mit einem String-Parameter 'Satz' ohne Rückgabewert, bis zum 3. Lebensjahr wird 'blabla' ausgegeben, da ein Baby nicht sprechen kann. (If-Abfrage).
 
 
 ---
@@ -139,7 +139,7 @@ Wenn sich zwei Menschen begegnen begrüßen sie sich meistens zu Beginn. Wenn ma
 [Literatur - Template Literal Types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html)
 
 - [ ] Implementiere eine public Methode 'InformellBegrueßen' mit einem Mensch-Parameter 'Freund' ohne Rückgabewert, der die Methode 'Sprechen' mit einer freundschaftlichen Begrüßung eurer Wahl und dem Vornamen des Freundes aufruft. Nutze hierbei sogenannte "Template Literal Types"
-- [ ] Implementiere eine public Methode 'formellBegrueßen' mit einem Mensch-Parameter 'Person' ohne Rückgabewert, der die Methode 'Sprechen' mit einer formellen Anrede "Hallo Herr / Frau ..." und dem Nachnamen aufruft. Auch hier sind "Template Literal Types" sowie der "Ternary operator" bei If-Abfragen zu nutzen. Die Auswahl von Herr oder Frau in der Anrede soll durch Prüfung des Geschlechts entschieden werden.
+- [ ] Implementiere eine public Metho 'FormellBegrueßen' mit einem Mensch-Parameter 'Person' ohne Rückgabewert, der die Methode 'Sprechen' mit einer formellen Anrede "Hallo Herr / Frau ..." und dem Nachnamen aufruft. Auch hier sind "Template Literal Types" sowie der "Ternary operator" bei If-Abfragen zu nutzen. Die Auswahl von Herr oder Frau in der Anrede soll durch Prüfung des Geschlechts entschieden werden.
 
 
 
@@ -197,7 +197,7 @@ Stand jetzt wird jeder Mensch beim Aufruf des Constructors mit dem Datum und der
 [Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
 [Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
 
-- [ ] Implementiere eine public Methode 'TimeWarp' mit einem DateTime-Parameter dessen Zeitwert von dem Geburtstag abgezogen wird. Somit wird der Geburtstermin um die entsprechende Dauer in die Vergangenheit verlegt. Die Methode hat kein Rückgabewert.
+- [ ] Implementiere eine public Methode 'TimeWarp' mit einem number-Parameter dessen Zeitwert den Jahren entspricht die von dem Geburtstag abgezogen wird. Somit wird der Geburtstermin um die entsprechenden Jahre in die Vergangenheit verlegt. Die Methode hat kein Rückgabewert.
 
 **Hinweis - Fehlermeldung Readonly**  
 Für diese Funktion ist die readonly Deklaration beim Geburtstag zu entfernen, da durch die Methode TimeWarp das Geburtsdatum in die Vergangenheit gelegt wird. Hierzu können "getter/setter" genutzt werden. Überlege dir selbst, wie du die Readonly-Funktion mit Getter/Setter umsetzen kannst ohne das Readonly-Verhalten zu verlieren.  
@@ -216,13 +216,13 @@ Hierzu gibt es Factory Software Pattern, die erst im weiteren Verlauf der Übung
 [Literatur - Datentyp Date](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)  
 
 
-- [] Implementiere eine statische Methode 'createBaby', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 2,5 Jahre abgezogen werden. Somit wird ein Mensch mit 2,5 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
+- [] Implementiere eine statische Methode 'createBaby', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 2 Jahre abgezogen werden. Somit wird ein Mensch mit 2 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
 - [] Implementiere eine statische Methode 'createChild', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 8 Jahre abgezogen werden. Somit wird ein Mensch mit 8 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
 - [] Implementiere eine statische Methode 'createTeenager', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 16 Jahre abgezogen werden. Somit wird ein Mensch mit 16 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
 - [] Implementiere eine statische Methode 'createAdult', in dem ein neues Mensch-Objekt erzeugt wird und mittels TimeWarp sollen 35 Jahre abgezogen werden. Somit wird ein Mensch mit 35 Jahren geschaffen. Alle anderen Parameter sind durch die statische Methode parametrierierbar zu machen.
 
 **Hinweis**  
-Nutze in den statischen Methoden die Objekt-Deklaration
+Nutze in den statischen Methoden diese Objekt-Deklaration
 
 ```ts
 const mensch: Mensch = new Mensch(...)
@@ -250,19 +250,19 @@ Schnittstellen bilden eine Konvention über die Bestandteile einer Klasse. Mit B
     - Eigenschaft 'Geschlecht'
     - Eigenschaft 'Vorname'
     - Eigenschaft 'Nachname'
-    - Eigenschaft 'Geburtstag'
+    - Getter 'getGeburtstag'
     - Methode 'Schreien'
     - Methode 'Weinen'
     - Methode 'Sprechen'
-    - Methode 'informelBegrüßen'
-    - Methode 'formelBerüßen'
+    - Methode 'InformellBegrüßen'
+    - Methode 'FormelBerüßen'
 
 - [ ] Lege eine Schnittstelle namens 'IEinstein' an und füge ihr folgende Methoden und Eigenschaften hinzu
     - Methode 'TimeWarp'
 
 - [ ] Füge der Klasse 'Mensch' die beiden Schnittstellen hinzu.
 
-- [ ] Ändere die Typ-Deklaration des Übergabeparameter von den beiden Methoden 'formellBegrueßen' und 'informellBegrueßen' zu 'IMensch'
+- [ ] Ändere die Typ-Deklaration des Übergabeparameter von den beiden Methoden 'FormellBegrueßen' und 'InformellBegrueßen' zu 'IMensch'
 
 - [ ] Nutze die neuen Interfaces auch in den Factory Methoden aus Aufgabe 9
     - Ändere den Rückgabeparameter aller statischen Methoden zu 'IMensch'

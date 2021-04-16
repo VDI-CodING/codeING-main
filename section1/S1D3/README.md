@@ -255,8 +255,8 @@ Schnittstellen bilden eine Konvention über die Bestandteile einer Klasse. Mit B
     - Methode 'Schreien'
     - Methode 'Weinen'
     - Methode 'Sprechen'
-    - Methode 'InformellBegrüßen'
-    - Methode 'FormelBerüßen'
+    - Methode 'InformellBegrueßen'
+    - Methode 'FormelBerueßen'
 
 - [ ] Lege eine Schnittstelle namens 'IEinstein' an und füge ihr folgende Methoden und Eigenschaften hinzu
     - Methode 'TimeWarp'

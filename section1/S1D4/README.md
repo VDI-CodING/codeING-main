@@ -32,6 +32,7 @@ Führe hierfür folgende Schritte aus:
 - [ ] Erstelle einen Constructor, der die entsprechenden Informationen setzt
 
 [Literatur - Klassen](https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members)
+[Literatur - Eigenschaften](https://www.typescriptlang.org/docs/handbook/2/classes.html#fields)  
 
 ### Aufgabe 2 - Erstelle eine Klasse 'Mitglied'
 
@@ -73,7 +74,7 @@ Folgende Schritte sind für die Aufgabe auszuführen:
 - [ ] Erstelle darin die angegebenen öffentlichen Informationen
 - [ ] Erstelle einen Construtor, der die entsprechenden Informationen setzt bzw initialisiert.
 
-
+[Literatur - Abstract Class](https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members)
 ### Aufgabe 5 - Erstelle eine abstrakte Klasse `HierarchyOrgEinheit`
 
 Nach dem die Klasse `OrgEinheit` die generische Klasse darstellt, folgt nun die Ergänzung zur Strukturierung der organisatorischen Einheiten als `HierarchyOrgEinheit`. Hierzu sind folgende Informationen der Klasse `HierarchyOrgEinheit` anzufügen, die die Klasse `OrgEinheit` erweitert (extends):
@@ -86,6 +87,7 @@ Folgende Schritte sind für die Aufgabe auszuführen:
 - [ ] Erstelle darin eine abstrakte Klasse `OrgEinheit`
 - [ ] Erstelle darin die angegebenen öffentlichen Informationen
 
+[Literatur - Abstract Class](https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members)
 
 ### Aufgabe 5 - Erstelle eine Print-Methode in der Klasse `OrgEinheit`
 
@@ -103,6 +105,8 @@ Folgende Aufgaben sind hierfür auszuführen:
 
 - [ ] Erstelle eine Methode Print nach der gegebenen Funktionsbeschreibung
 
+[Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
+[Literatur - Color Package](https://www.npmjs.com/package/colors)
 
 
 ### Aufgabe 6 - Erstelle eine Print-Methode in der Klasse `HierarchyOrgEinheit`
@@ -121,6 +125,8 @@ Folgende Aufgaben sind hierfür auszuführen:
 
 - [ ] Erstelle eine Methode Print nach der gegebenen Funktionsbeschreibung
 
+[Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
+[Literatur - Color Package](https://www.npmjs.com/package/colors)
 
 
 ### Aufgabe 7 - Erstelle eine Methode `AlleEinheiten` an der Klasse `HierarchyOrgEinheit`
@@ -132,6 +138,8 @@ Folgende Aufgaben sind hierfür auszuführen:
 
 - [ ] Erstelle die Methode `AlleEinheiten` entsprechend der geforderten Funktion.
 
+[Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
+[Literatur - Schleifen](https://www.tutorialspoint.com/typescript/typescript_loops.htm)
 
 ### Aufgabe 8 - Erstelle folgende Klassen und Methoden
 
@@ -152,6 +160,9 @@ Erstelle eine Klasse VDIVerein abgeleitet von der Klasse `HierarchyOrgEinheit`.
 - [ ] Erstelle die Datei `VDIVerein.ts`
 - [ ] Erstelle die Klasse `VDIVerein`
 - [ ] Erstelle eine Methode `addEinheit` mit einem Parameter vom Typ `VDIEinheit`
+
+
+[Literatur - Klassen (mal eine andere Klassen-Quelle)](https://www.tutorialspoint.com/typescript/typescript_classes.htm)
 
 
 ### Aufgabe 8 - Erstelle folgende Klasse und das Testprogramm 

@@ -189,8 +189,6 @@ Folgende Schritte sind hierzu auszuführen:
 
 Folgender Output sollte in der Console erscheinen:
 
-```bash
-Hier wird der Console-Output in wenigen Tagen stehen
-```
+![Testausgabe](Screenshot_TestAusgabe.png)
 
 

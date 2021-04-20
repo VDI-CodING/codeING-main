@@ -77,8 +77,9 @@ Die folgenden Themen werden behandelt:
 
 ## :arrow_forward: S1D4 - Vererbung und Typprüfung
 Lead: @stan1025 (Andreas Stutz)  
-Status: :construction:
+Status: :heavy_check_mark:
 geplant: KW16
+[link](S1D4/README.md)  
 
 Zusätzlich zu Klassen und Schnittstellen sind Vererbung und Typprüfung Basiskonstrukte der objektorientierten Programmierung.In diesem Dojo werden die Grundlagen von Vererbung und Typprüfung gezeigt.
 

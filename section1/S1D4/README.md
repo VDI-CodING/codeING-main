@@ -83,11 +83,13 @@ Nach dem die Klasse `OrgEinheit` die generische Klasse darstellt, folgt nun die 
 
 Folgende Schritte sind für die Aufgabe auszuführen:
 
-- [ ] Erstelle eine Datei namens `OrgEinheit.ts`
-- [ ] Erstelle darin eine abstrakte Klasse `OrgEinheit`
+- [ ] Erstelle eine Datei namens `HierarchyOrgEinheit.ts`
+- [ ] Erstelle darin eine abstrakte Klasse `HierarchyOrgEinheit` die von `OrgEinheit` erbt
 - [ ] Erstelle darin die angegebenen öffentlichen Informationen
+- [ ] Lege eine Methode `addEinheit` mit einem Parameter `einheit: OrgEinheit`. Berechne die korrekte Ebene der hinzugefügten Einheit und passe sie an.
 
-[Literatur - Abstract Class](https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members)
+[Literatur - Abstract Class](https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members)  
+
 
 ### Aufgabe 5 - Erstelle eine Print-Methode in der Klasse `OrgEinheit`
 
@@ -132,14 +134,16 @@ Folgende Aufgaben sind hierfür auszuführen:
 ### Aufgabe 7 - Erstelle eine Methode `AlleEinheiten` an der Klasse `HierarchyOrgEinheit`
 
 Erstelle eine Methode die alle unterlagerten Instanzen einer `OrgEinheit` in einer flachen Liste zurückgibt. Die eigene Instanz soll ebenfalls Teil der Auflistung sein. 
-Hierbei ist zu beachten, dass nicht jede `OrgEinheit` unterlagerte Einheiten hat - nutze hierzu den Hinweis des `as` Operator aus der angegebenen Literatur. 
+Hierbei ist zu beachten, dass nicht jede `OrgEinheit` unterlagerte Einheiten hat - nutze hierzu den Hinweis zum `Type Checking` und des `as` Operator aus der angegebenen Literatur. 
 
 Folgende Aufgaben sind hierfür auszuführen:
 
 - [ ] Erstelle die Methode `AlleEinheiten` entsprechend der geforderten Funktion.
 
 [Literatur - Methoden](https://www.typescriptlang.org/docs/handbook/2/classes.html#methods)  
-[Literatur - Schleifen](https://www.tutorialspoint.com/typescript/typescript_loops.htm)
+[Literatur - Schleifen](https://www.tutorialspoint.com/typescript/typescript_loops.htm)  
+[Literatur - Type Checking](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#instanceof-narrowing)  
+[Literatur - Type Mapping with As](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)  
 
 ### Aufgabe 8 - Erstelle folgende Klassen und Methoden
 
@@ -159,10 +163,10 @@ Erstelle eine Klasse VDIVerein abgeleitet von der Klasse `HierarchyOrgEinheit`.
 
 - [ ] Erstelle die Datei `VDIVerein.ts`
 - [ ] Erstelle die Klasse `VDIVerein`
-- [ ] Erstelle eine Methode `addEinheit` mit einem Parameter vom Typ `VDIEinheit`
 
 
-[Literatur - Klassen (mal eine andere Klassen-Quelle)](https://www.tutorialspoint.com/typescript/typescript_classes.htm)
+
+[Literatur - Klassen (mal eine andere Klassen-Quelle)](https://www.tutorialspoint.com/typescript/typescript_classes.htm)  
 
 
 ### Aufgabe 8 - Erstelle folgende Klasse und das Testprogramm 

@@ -88,5 +88,5 @@ Die folgenden Themen werden behandelt:
 - Einführung in abstract classes
 - Einführung in Typ- und Instanzprüfung
 - Einführung in den 'as'-Operator
-- Einführung in die '< >'-Notation
+
 

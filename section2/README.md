@@ -10,19 +10,17 @@ Die Übungen führen hin zu einer kleinen Netzwerkchatanwendung.
 ## :arrow_forward: S2D1 - Fortgeschrittene Typen
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-geplant: tbd  
+geplant: KW17
+[link](S2D1/README.md) 
 
-Einführung von Unions  
-Einführung von Intersection  
+Einführung von Unions   
 Einführung von Tupel  
-EInführung von array  
-Einführung von Listen  
-Einführung von Maps  
+Einführung von Array   
 
 ## :arrow_forward: S2D2 - fortgeschrittene Klassen
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-geplant: tbd  
+geplant: KW18
 
 Einführung von data modifiers  
 Einführung von ReadOnly  
@@ -31,7 +29,7 @@ Einführung von Abstracts
 ## :arrow_forward: S2D3 - Advanced OOP
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-geplant: tbd  
+geplant: KW19  
 
 Einführung von Modules  
 Einführung von Namespaces  
@@ -40,7 +38,7 @@ Einführung von Namespaces
 ## :arrow_forward: S2D4 - Funktionale Programmierung
 Lead: @zangarus (Marwin Madsen)  
 Status: :construction:
-geplant: tbd  
+geplant: KW20  
 
 Arrow Functions (Lambda Expressions)  
 Function Overloading  

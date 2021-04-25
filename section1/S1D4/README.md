@@ -91,7 +91,7 @@ Folgende Schritte sind für die Aufgabe auszuführen:
 [Literatur - Abstract Class](https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members)  
 
 
-### Aufgabe 5 - Erstelle eine Print-Methode in der Klasse `OrgEinheit`
+### Aufgabe 6 - Erstelle eine Print-Methode in der Klasse `OrgEinheit`
 
 Erstelle eine öffentliche Methode Print, die in der Konsole die Bezeichnung der Organisationseinheit ausgibt. Hierzu ist folgendes Format zu wählen:
 
@@ -111,7 +111,7 @@ Folgende Aufgaben sind hierfür auszuführen:
 [Literatur - Color Package](https://www.npmjs.com/package/colors)
 
 
-### Aufgabe 6 - Erstelle eine Print-Methode in der Klasse `HierarchyOrgEinheit`
+### Aufgabe 7 - Erstelle eine Print-Methode in der Klasse `HierarchyOrgEinheit`
 
 Nutze die Möglichkeit der Methoden-Überladung (Override), um die Print-Methode der Basisklasse zu überschreiben und zu ergänzen, dass folgendes Schema verwendet wird.
 
@@ -131,7 +131,7 @@ Folgende Aufgaben sind hierfür auszuführen:
 [Literatur - Color Package](https://www.npmjs.com/package/colors)
 
 
-### Aufgabe 7 - Erstelle eine Methode `AlleEinheiten` an der Klasse `HierarchyOrgEinheit`
+### Aufgabe 8 - Erstelle eine Methode `AlleEinheiten` an der Klasse `HierarchyOrgEinheit`
 
 Erstelle eine Methode die alle unterlagerten Instanzen einer `OrgEinheit` in einer flachen Liste zurückgibt. Die eigene Instanz soll ebenfalls Teil der Auflistung sein. 
 Hierbei ist zu beachten, dass nicht jede `OrgEinheit` unterlagerte Einheiten hat - nutze hierzu den Hinweis zum `Type Checking` und des `as` Operator aus der angegebenen Literatur. 
@@ -145,7 +145,7 @@ Folgende Aufgaben sind hierfür auszuführen:
 [Literatur - Type Checking](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#instanceof-narrowing)  
 [Literatur - Type Mapping with As](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)  
 
-### Aufgabe 8 - Erstelle folgende Klassen und Methoden
+### Aufgabe 9 - Erstelle folgende Klassen und Methoden
 
 Erstelle eine Klasse VDITeam abgeleitet von der Klasse `OrgEinheit`.
 
@@ -169,7 +169,7 @@ Erstelle eine Klasse VDIVerein abgeleitet von der Klasse `HierarchyOrgEinheit`.
 [Literatur - Klassen (mal eine andere Klassen-Quelle)](https://www.tutorialspoint.com/typescript/typescript_classes.htm)  
 
 
-### Aufgabe 9 - Erstelle folgende Klasse und das Testprogramm 
+### Aufgabe 10 - Erstelle folgende Klasse und das Testprogramm 
 
 Als Testprogramm ist durch die Klassen `VDIVerein`, `VDIEinheit`, `VDITeam` die ehrenamtliche Struktur des VDI abzubilden. Unter diesem Link findet ihr die Struktur die ihr nachbilden sollt:
 

@@ -12,27 +12,28 @@ Einführung von Unions
 Einführung von Tupel  
 Einführung von Array  
 
-Nachdem im Dojo [S1D1](../section1/S1D1/README.md) die nativen Typen von Typescript behandelt wurden, geht es in diesem Dojo um komplexere Typen.
+Nachdem im Dojo [S1D1](../section1/S1D1/README.md) die primitven Typen von Typescript behandelt wurden, geht es in diesem Dojo um komplexere Typen.
+
 ---
 ### Aufgabe 1 - Array
 
-- [ ] Erstelle eine Funktion `reverse(array: Array) : Array`, die ein Array mit beliebigen Typen nimmt und dieses umdreht. Benutze hierfür nicht `array.reverse();`.  
-  `reverse([1, 2, 3]) => [3, 2, 1]`
-  - [ ] Erstelle eine Funktion `modify(array: Array<int>) : Array<int>`, die ein Array aus integer nimmt und jeden Eintrag verdoppelt, wenn dieser negativ, die Wurzel zieht, wenn die Wurzel existiert und alle Einträge auf die dies nicht zutrifft addiert.
-  `moify([-5, 0, 1, 4, 3, 22, 16]) => [-10, 0, 2, 4, 26]`
+- [ ] Erstelle eine Funktion `reverse(array: Array) : Array`, die ein Array mit beliebigen Typen nimmt und dieses umdreht. Benutze hierfür nicht `array.reverse()`.  
+  - Beispiel: `reverse([1, 2, 3]) => [3, 2, 1]`
+- [ ] Erstelle eine Funktion `modify(array: Array<int>) : Array<int>`, die ein Array aus integer nimmt und jeden Eintrag verdoppelt, wenn dieser negativ, die Wurzel zieht, wenn die Wurzel existiert und alle Einträge, auf die dies nicht zutrifft, addiert.  
+  - Beispiel: `modify([-5, 0, 1, 4, 3, 22, 16]) => [-10, 0, 2, 4, 26]`
 - [ ] Erstelle eine Funktion `compact(array: Array) : Array<int>`, die ein Array mit beliebigen Typen nimmt und nur die positiven Zahlen zurückgibt.  
-  `compact([0, 1, false, 2, undefined, '', 3, null]) => [1, 2, 3]`
+  - Beispiel: `compact([0, 1, false, 2, undefined, '', 3, null]) => [1, 2, 3]`
 - [ ] Erstelle eine Funktion `delete(array: Array, ...delete) : Array`, die ein Array von primitiven Typen und beliebige Argumente nimmt und ein Array ohne diese angegebenen Argumente ausgibt.  
-  `[1, 2, 3, 1, 2], 1, 2 => [3]`
+  - Beispiel: `[1, 2, 3, 1, 2], 1, 2 => [3]`
 - [ ] Erstelle eine Funktion `unique(array: Array) : Array`, die ein Array mit primitiven Typen nimmt und es ohne Duplikate zurückgibt.  
-  `unique([1, 2, 3, 1, 2]) => [1, 2, 3]`
+  - Beispiel: `unique([1, 2, 3, 1, 2]) => [1, 2, 3]`
 - [ ] Erstelle eine Funktion `isEqual(array1: Array, array2: Array) : boolean`, die zwei Arrays nimmt und true zurückgibt, wenn diese gleich sind.  
-  `isEqual([1, 2, 3], [1, 2, 3]) => true`
+  - Beispiel: `isEqual([1, 2, 3], [1, 2, 3]) => true`
 - [ ] Erstelle eine Funktion `chunck(array: Array, size) : Array<Array>`, die ein Array mit beliebigen Typen und eine Größe nimmt und das Array in Arrays dieser Größe aufteilt
-  `chunck([1, 2, 3, 4, 5], 2) => [[1, 2], [3, 4], [5]]`
+  - Beispiel: `chunck([1, 2, 3, 4, 5], 2) => [[1, 2], [3, 4], [5]]`
 
 [Literatur - Array](https://www.tutorialspoint.com/typescript/typescript_arrays.htm)  
-[Diskussin - Array<Type> vs. Type[]](https://stackoverflow.com/questions/36842158/arraytype-vs-type-in-typescript)
+[Diskussion - Array<Type> vs. Type[]](https://stackoverflow.com/questions/36842158/arraytype-vs-type-in-typescript)
 
 ### Aufgabe 2 - Tupel
 
@@ -64,6 +65,7 @@ function doSomething(value: string, padding: any) {
 - [ ] Erkläre ob Probleme auftreten bei den folgenen Aufrufen. Führe den Code hierzu nicht aus, sondern versuche es nur abzulesen.
 
 ```typescript
+padLeft("4", "Hello world");
 padLeft("Hello world", 4);
 padLeft("world", 'Hello');
 padLeft("Bye world", true);
@@ -72,8 +74,8 @@ padLeft("Bye world", true);
 - [ ] Mache ein Vorschlag, wie sich mögliche Probleme mit Unions beheben ließen.
 - [ ] Schreibe eine Funktion `logger(state: NetworkState): string` mit dem nachfolgenden Typ NetworkState, die folgendes zurückgeben kann:
   1. Downloading...
-  2. Error <code> downloading
-  3. Downloaded <title> - <summary>
+  2. Error "code" downloading
+  3. Downloaded "title" - "summary"
 
 ```typescript
 type NetworkLoadingState = {
@@ -140,6 +142,8 @@ const handleArtistsResponse = (response: ArtistsResponse) => {
   console.log(response.artists);
 };
 ```
+
+Wenn die Aufgaben abgeschlossen sind, so aktiviere bitter wieder in der tsconfig.json die Einstelllung `strict: true` in Zeile 31.
 
 [Literatur - Union](https://www.tutorialspoint.com/typescript/typescript_union.htm)  
 [Diskussion - Union vs. Enum](https://stackoverflow.com/questions/40275832/typescript-has-unions-so-are-enums-redundant)  

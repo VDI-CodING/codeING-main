@@ -169,7 +169,7 @@ Erstelle eine Klasse VDIVerein abgeleitet von der Klasse `HierarchyOrgEinheit`.
 [Literatur - Klassen (mal eine andere Klassen-Quelle)](https://www.tutorialspoint.com/typescript/typescript_classes.htm)  
 
 
-### Aufgabe 8 - Erstelle folgende Klasse und das Testprogramm 
+### Aufgabe 9 - Erstelle folgende Klasse und das Testprogramm 
 
 Als Testprogramm ist durch die Klassen `VDIVerein`, `VDIEinheit`, `VDITeam` die ehrenamtliche Struktur des VDI abzubilden. Unter diesem Link findet ihr die Struktur die ihr nachbilden sollt:
 

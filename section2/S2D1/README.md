@@ -2,7 +2,7 @@
 
 ## :arrow_forward: S2D1 - Fortgeschrittene Typen
 Lead: @zangarus (Marwin Madsen)  
-Status: :construction:
+Status: :heavy_check_mark:
 geplant: KW17  
 
 ---

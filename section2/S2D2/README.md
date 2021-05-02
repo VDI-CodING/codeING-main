@@ -11,7 +11,7 @@ geplant: KW18
 Arrow Functions (Lambda Expressions)   
 Einführung von Generics  
 Einführing von Modules
-Arbeiten mit Dependencies
+Arbeiten mit externen Bibliotheken
 
 In diesem Dojo werden für unterschiedliche Konzepte von TypeScript, die das Programmieren häufig erleichtern, Verweise auf Literatur und Aufgaben gegeben.
 
@@ -19,7 +19,6 @@ In diesem Dojo werden für unterschiedliche Konzepte von TypeScript, die das Pro
 ### Aufgabe 1 - Arrow Functions (Lambda Expressions) 
 
 - [ ] Transformiere die Funkion zu einer Arrow Function.
-
 
 ```typescript
 function sum(num1, num2) {
@@ -51,11 +50,11 @@ whoAmI<Object>("Another Test");
 - [ ] Erstelle eine Funktion mit Namen `checkNameLength`, die als Eingabe alle Objekte nimmt, solange die Parameter aus dem Interface `funcArgs` vorhanden sind. Die Funktion gibt true zurück, falls `length` tasächlich die Länge von `name` ist und ansonsten false.
 - [ ] Gibt es einen Fehler bei folgendem Aufruf?
 
-  ```typescript
-  checkNameLength({ length: 3, age: 164, memebers: 140.000, name: 'VDI'});
-  ```
+```typescript
+checkNameLength({ length: 3, age: 164, memebers: 140.000, name: 'VDI'});
+```
 
-- [ ] Suche nach Literatur, die dir die Konzepte einer Linked List erklärt (selber zu recherchieren und zu wissen wo vertrauenswürdiges Material zu finden ist, ist eine Kernkompetenz von Programmieren).
+- [ ] Suche nach Literatur, die dir die Konzepte einer Linked List erklärt (selber zu recherchieren und zu wissen wo vertrauenswürdiges Material zu finden ist, ist eine Kernkompetenz, die zum Programmieren benötigt wird).
 - [ ] Implementiere eine Linked List in Typescript mittels Generics. Erstelle hierfür zwei Klassen `ListItem` und `List`.
 
 [Literatur - Interface](https://www.typescriptlang.org/docs/handbook/2/objects.html#interfaces-vs-intersections)
@@ -63,7 +62,7 @@ whoAmI<Object>("Another Test");
 
 ### Aufgabe 3 - Modules
 
-- [ ] Mache dich mit dem Code verraut, indem du einen weitere Validator für PLZ (engl. zip code) mittels regexp pattern (/^[0-9]+$/) erstellst.
+- [ ] Mache dich mit dem Code verraut, indem du einen weitere Validator für PLZ (engl. zip code) mittels regulären Audrücken (engl. regular expression oder kurz regex) `(/^[0-9]+$/)` erstellst.
 
 ```typescript
 interface StringValidator {
@@ -93,14 +92,14 @@ for (let s of strings) {
 
 - [ ] Strukturiere den obigen Code in Modules um.
   - unterteile hierzu den Code in unterschiedliche Dateien: val.ts, lettersVal.ts, zipVal.ts, test.ts
-  - exportiere die Validators
-  - verstecke die Regex Pattern
+  - mache die Validatoren zugreifbar
+  - verstecke den regex
 
 [Literatur - Regex](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 [Tool - Regex Tester](https://regex101.com/)
 [Literatur - Modules](https://www.typescriptlang.org/docs/handbook/2/modules.html)
 
-### Aufgabe 4 - Dependencies
+### Aufgabe 4 - Externe Bibliotheken
 
 - [ ] Installiere die Bibliothek Moment.js mittels npm.
 - [ ] Prüfe, ob auch wie in der Einführung @types/moment installiert werden muss. Wieso ist dies nicht der Fall?

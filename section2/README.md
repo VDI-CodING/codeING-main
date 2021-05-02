@@ -10,7 +10,7 @@ Die Übungen führen hin zu einer kleinen Netzwerkchatanwendung.
 ## :arrow_forward: S2D1 - Fortgeschrittene Typen
 Lead: @zangarus (Marwin Madsen)  
 Status: :heavy_check_mark:
-geplant: KW17
+geplant: KW17  
 [link](S2D1/README.md) 
 
 Einführung von Unions   
@@ -20,9 +20,11 @@ Einführung von Array
 ## :arrow_forward: S2D2 - Hilfreiche Aspekte von Typescript
 Lead: @zangarus (Marwin Madsen)  
 Status: :heavy_check_mark:
-geplant: KW18
+geplant: KW18  
+[link](S2D2/README.md)
 
 Arrow Functions (Lambda Expressions)   
 Einführung von Generics  
-Arbeiten mit Dependencies
+Einführing von Modules
+Arbeiten mit externen Bibliotheken
 

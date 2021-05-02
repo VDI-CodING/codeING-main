@@ -24,7 +24,7 @@ Sofern nötig können Videokonferenzen zum Diskutieren der Aufgaben und Ergebnis
 ## :arrow_forward: Themenüberblick
 
 [:heavy_check_mark:] Section 1 - [grundlegende Programmierkenntnisse](section1/README.md)  
-[:construction:] Section 2 - [fortgeschrittene Programmierkenntnisse](section2/README.md)  
+[:heavy_check_mark:] Section 2 - [fortgeschrittene Programmierkenntnisse](section2/README.md)  
 [:construction:] Section 3 - [Softwarearchitektur](section3/README.md)  
 
 :construction:: in Arbeit :heavy_check_mark:: bereit zur Nutzung

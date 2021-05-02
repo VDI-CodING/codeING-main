@@ -48,16 +48,17 @@ whoAmI<Object>("Another Test");
 ```
 
 - [ ] Erstelle ein Interface `funcArgs`, welches die Paramter `name` und `length` hat. Hierbei ist `name` ein `string` und `length` eine `number`.
-- [ ] Erstelle eine Funktion mit Namen `checkNameLength`, die als Eingabe alle Objekte nimmt, solange die Parameter aus dem Interface `funcArgs` vorhanden sind. Die Funktion gibt true zurück, falls die `length` tasächlich die Längevon `name` enthält undd ansonsten false.
+- [ ] Erstelle eine Funktion mit Namen `checkNameLength`, die als Eingabe alle Objekte nimmt, solange die Parameter aus dem Interface `funcArgs` vorhanden sind. Die Funktion gibt true zurück, falls `length` tasächlich die Länge von `name` ist und ansonsten false.
 - [ ] Gibt es einen Fehler bei folgendem Aufruf?
 
   ```typescript
-  getLength({ length: 3, age: 164, memebers: 140.000, name: 'VDI'});
+  checkNameLength({ length: 3, age: 164, memebers: 140.000, name: 'VDI'});
   ```
 
-- [ ] Suche nach Literatur, die dir die Konzepte einer Linked List erklärt.
-- [ ] Implementiere eine Linked List in Typescript mittels Generics. Trenne hierfür die `ListItem` und die `List` in zwei unterschiedliche Klassen.
+- [ ] Suche nach Literatur, die dir die Konzepte einer Linked List erklärt (selber zu recherchieren und zu wissen wo vertrauenswürdiges Material zu finden ist, ist eine Kernkompetenz von Programmieren).
+- [ ] Implementiere eine Linked List in Typescript mittels Generics. Erstelle hierfür zwei Klassen `ListItem` und `List`.
 
+[Literatur - Interface](https://www.typescriptlang.org/docs/handbook/2/objects.html#interfaces-vs-intersections)
 [Literatur - Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)  
 
 ### Aufgabe 3 - Modules
@@ -90,10 +91,10 @@ for (let s of strings) {
 }
 ```
 
-- [ ] Strukturiere den folgenden Code in Modules um.
-  - unterteile hierzu den Codei in unterschiedliche Dateien: val.ts, lettersVal.ts, zipVal.ts, test.ts
-  - export die Validators
-  - verstecke den Regex
+- [ ] Strukturiere den obigen Code in Modules um.
+  - unterteile hierzu den Code in unterschiedliche Dateien: val.ts, lettersVal.ts, zipVal.ts, test.ts
+  - exportiere die Validators
+  - verstecke die Regex Pattern
 
 [Literatur - Regex](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 [Tool - Regex Tester](https://regex101.com/)
@@ -101,10 +102,10 @@ for (let s of strings) {
 
 ### Aufgabe 4 - Dependencies
 
-- [ ] Installiere die Bibliothek Moment.js mittels npm
+- [ ] Installiere die Bibliothek Moment.js mittels npm.
 - [ ] Prüfe, ob auch wie in der Einführung @types/moment installiert werden muss. Wieso ist dies nicht der Fall?
 - [ ] Nutze die Dokumentation der Bibliothek, um folgende Ausgaben zu erzeugen:
   - [ ] aktuelle Zeit
   - [ ] 2009 um Mitternacht 7 Tagen später als heute und 1 Monat früher als heute
   - [ ] aktuelle Zeit formatiert wie Sonntag, 14. Februar 2010, 3:25:50
-- [ ] Übsertze folgendes Zeitformat mittels Moment.js: 2014-09-08T08:02:17-05:00
+- [ ] Übersetze folgendes Zeitformat mittels Moment.js: 2014-09-08T08:02:17-05:00

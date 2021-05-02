@@ -17,30 +17,12 @@ Einführung von Unions
 Einführung von Tupel  
 Einführung von Array   
 
-## :arrow_forward: S2D2 - fortgeschrittene Klassen
+## :arrow_forward: S2D2 - Hilfreiche Aspekte von Typescript
 Lead: @zangarus (Marwin Madsen)  
-Status: :construction:
+Status: :heavy_check_mark:
 geplant: KW18
 
-Einführung von data modifiers  
-Einführung von ReadOnly  
-Einführung von Abstracts  
-
-## :arrow_forward: S2D3 - Advanced OOP
-Lead: @zangarus (Marwin Madsen)  
-Status: :construction:
-geplant: KW19  
-
-Einführung von Modules  
-Einführung von Namespaces  
-
-
-## :arrow_forward: S2D4 - Funktionale Programmierung
-Lead: @zangarus (Marwin Madsen)  
-Status: :construction:
-geplant: KW20  
-
-Arrow Functions (Lambda Expressions)  
-Function Overloading  
-Rest Parameters  
+Arrow Functions (Lambda Expressions)   
+Einführung von Generics  
+Arbeiten mit Dependencies
 
